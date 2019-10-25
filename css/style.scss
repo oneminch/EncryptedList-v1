@@ -1,0 +1,405 @@
+@import "responsive";
+
+$inactive: #bbb; // Inactive color: gray
+$darkColor: #000; // Dark color: Black
+$lightColor: #fff; // Light color: White
+$disabled: 1px solid $inactive;  // Disabled Border
+$active: 1px solid $darkColor;  // Active Border
+$roundCorners: 3px; // Round corner radius
+$inactivShadow: -4px 4px 0px $inactive; // Box shadow for inactive containers
+$tinyShadow: -4px 4px 0px $darkColor; // Box shadow for small containers
+$bigShadow: -7.5px 7.5px 0px $darkColor; // Box shadow for bigger containers
+
+* {
+   outline: none;
+   box-sizing: border-box;
+   text-decoration: none;
+   // font-family: 'Notable', sans-serif;
+   // font-family: 'Abril Fatface', cursive;
+   font-family: 'DM Serif Display', serif;
+   transition-duration: 0.25s;
+   background-color: $lightColor;
+   color: $darkColor;
+   // border: .5px solid red;
+}
+
+html {
+   font-size: 100%;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+// Each Section/Container
+.section {
+   width: 100%;
+   max-width: 1440px;
+   // min-height: 300px;
+   margin: 1rem auto;
+}
+
+// Section Break
+hr {
+   width: 50%;
+   border: .5px solid #bbb;
+   margin: 25px auto;
+   text-align: center;
+}
+
+// First Introduction
+.intro {
+   height: 25rem;
+   margin-top: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   >* {
+      width: 50%;
+      text-align: center;
+      // border: 1px solid $darkColor;
+   }
+   // Intro Left: Profile Image/Illustration
+   &__img {
+      margin-left: 2em;
+      img {
+         width: 225px;
+         height: 225px;
+         border-radius: 50%;
+      }
+   }
+   // Intro Right:  Name, Title & Social
+   &__text {
+      text-align: left;
+      // border: 1px solid $darkColor;
+      margin-right: 2em;
+      >* { 
+         width: 50%; 
+         margin: 15px auto;
+         // border: 1px solid $darkColor;
+      }
+   }
+   // Social Accounts
+   &__social {
+      width: 50%; height: 45px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      >* {
+         width: 45px; min-width: 45px; 
+         height: 45px;
+         box-shadow: $tinyShadow;
+         border-radius: $roundCorners;
+         margin: 7.5px;
+         border: $active;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         img { 
+            width: 30px; 
+            height: 30px;
+         }
+      }
+   }
+}
+
+// Scroll Down Icon
+.scroll-down {
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+   // border: 1px solid $darkColor;
+   text-align: center;
+}
+
+// Bio Container
+.bio {
+   // border: 1px solid $darkColor;
+   &__text {
+      width: 65%;
+      padding: 1.5rem;
+      box-shadow: $bigShadow;
+      border-radius: $roundCorners;
+      border: $active;
+      margin: 0 auto 1rem auto;
+   }
+   &__icon {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto;
+      margin-top: calc(-36px - 1rem);
+      border-radius: 50%;
+      img {
+         width: 100%;
+         border-radius: 50%;
+      }
+   }
+}
+
+// Timeline: Experience
+.experience {
+   text-align: center;
+   padding-bottom: .5rem;
+   > * {
+      // border: 1px solid red;
+      margin: 1rem auto;
+   }
+   h1 {
+      margin: 0 auto;
+   }
+   &__current {
+      width: 65%;
+      min-height: 150px;
+      padding: .75rem;
+      border: $active;
+      box-shadow: $bigShadow;
+      border-radius: $roundCorners;
+      >* {
+         width: 90%;
+         margin: .5rem auto;
+      }
+      &__link {
+         width: 150px;
+         height: 40px;
+         line-height: 40px;
+         display: block;
+         margin-top: 1rem;
+         border: $active;
+         border-radius: $roundCorners;
+         // if no link to experience
+         &--inexistent {
+            display: none;
+         }
+      }
+   }
+   &__list {
+      width: 65%;
+      padding: .5rem 0;
+      margin: 1.5rem auto 0 auto;
+      &__items {
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+      }
+      &__item {
+         width: 20px; height: 20px;
+         cursor: pointer;
+         margin: 0 .5rem;
+         border-radius: 50%;
+         border: $active;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         z-index: 1;
+         span {
+            width: 50%;
+            height: 50%;
+            border: none;
+            border-radius: 50%;
+            display: block;
+         }
+         &--active {
+            span {
+               background-color: $darkColor;
+            }
+         }
+      }
+      // Time-line
+      hr {
+         width: 100%;
+         border: 1px solid $darkColor;
+         border-radius: 1px;
+         margin: 0 auto;
+         position: relative;
+         top: -12px; // -(item_height + itrem_border + hr_height)/2 px
+         z-index: 0;
+      }
+   }
+}
+
+// Projects: Top Projects
+.projects {
+   width: 100%;
+   padding: 0 2rem;
+   text-align: center;
+   &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin: 1rem 0 2rem 0;
+   }
+   &__project {
+      width: 250px;
+      padding: 1rem;
+      box-shadow: $bigShadow;
+      border-radius: $roundCorners;
+      border: $active;
+      margin: 0 1em;
+      
+      // >* {
+      // border: 1px solid $darkColor;
+      // }
+      .icon {
+         width: 75px;
+         height: 75px;
+         margin: 0 auto;
+      }
+      .name {
+         height: 50px;
+         font-size: 1.5rem;
+         font-weight: bold;
+         line-height: 50px;
+      }
+      .desc {
+         height: 150px;
+         overflow: hidden;
+      }
+   }
+   &__more {
+      width: 150px;
+      height: 50px;
+      display: block;
+      cursor: pointer;
+      border: $active;
+      box-shadow: $tinyShadow;
+      border-radius: $roundCorners;
+      line-height: 47.5px;
+      margin: 1.5rem auto;
+   }
+}
+
+// Skills: List of skills and tools
+.skills {
+   text-align: center;
+   padding: 0 2rem;
+   h1 {
+      margin: 0;
+   }
+   &__container {
+      width: 100%;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__side {
+      width: 325px;
+      margin: 0 3rem;
+   }
+   &__list {
+      width: 325px;
+      padding: 1rem;
+      box-shadow: $bigShadow;
+      border-radius: $roundCorners;
+      border: $active;
+      li { list-style-type: square; }
+   }
+   &__icon {
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      background-color: $darkColor;
+      padding: .75rem;
+      margin: -25px 0 0 -25px;
+      > * {
+         background-color: $darkColor;
+      }
+   }
+}
+
+// Interests
+.interests {
+   width: 100%;
+   padding: 0 2rem;
+   text-align: center;
+   &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin: 1rem 0 2rem 0;
+   }
+   &__interest {
+      width: 175px;
+      height: 225px;
+      padding: .75rem;
+      box-shadow: $bigShadow;
+      border-radius: $roundCorners;
+      border: $active;
+      margin: 0 2rem;
+      >* {
+         height: 100px;
+      }
+      .icon {
+         width: 75px;
+         padding: .5rem;
+         margin: 0 auto;
+      }
+      .name {
+         font-size: 1.25rem;
+         font-weight: bold;
+         display: flex;
+         justify-content: center;
+         align-items: center; 
+      }
+   }
+   &__more {
+      max-width: 200px;
+      height: 50px;
+      line-height: 47.5px;
+      margin: 1.5rem auto;
+   }
+}
+
+// Contact
+.contact {
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   &__btn {
+      width: 150px;
+      height: 50px;      
+      // cursor: pointer;
+      
+      cursor: not-allowed;
+      color: $inactive;
+      box-shadow: $inactivShadow;
+
+      // box-shadow: $tinyShadow;
+      border-radius: $roundCorners;
+      border: $disabled;
+      font-weight: bold;
+      line-height: 47.5px;
+      margin: 1rem auto;
+   }
+}
+
+// Footer
+.footer {
+   min-height: 115px;
+   font-size: .75rem;
+   margin: 0 auto;
+   padding: 1rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   border-top-left-radius: $roundCorners;
+   border-top-right-radius: $roundCorners;
+   background-color: $darkColor;
+   &__text {
+      color: $lightColor;
+      background-color: transparent;
+   }
+   a {
+      background-color: $darkColor;
+      img {
+         background-color: $darkColor;
+         width: 75px;
+         height: auto;
+         // display: block;
+      }
+   }
+}
