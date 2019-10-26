@@ -5,15 +5,135 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="css/style.css">
-
-   <!-- REmove me -->
-   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|DM+Serif+Display|Notable&display=swap" rel="stylesheet">
-   <!-- REmove me -->
-
-   <title>Portfolio Website</title>
+   <title>Encrypted List</title>
 </head>
 <body>
-   
+   <!-- Intro: Logo, name & description -->
+   <div class="intro">
+      <img src="img/logo.svg" alt="Website Logo">
+      <h1>Encrypted List</h1>
+      <h3>
+         List of services that offer end-to-end encryption
+         <span class="disclaimer-btn"><img src="img/info.svg" alt="Info"></span>
+      </h3>
+      <p class="disclaimer hide">
+         This list includes services that either have end-to-end encryption on some of their features
+         or implement it fully. It is based on claims made by their respective owners or companies. 
+         Items tagged as "open-source" are more reliable. However, not all items tagged as "open-source" are 
+         fully open source. Do your research before trusting a service 🤓 and enjoy!😉.
+      </p>
+   </div>
+   <!-- Filter options -->
+   <div class="options">
+      <!-- Dropdown menu: Categories -->
+      <div class="category">
+         <label>Category:</label>
+         <select class="category__list dropdown__list">:
+            <!-- 
+            <option value = "All" selected>All</option>
+            <option value = "Email">Email</option> ...
+            -->
+         </select>
+      </div>
+      <!-- Dropdown menu: Tags -->
+      <div class="tags">
+         <label>Tags:</label>
+         <select class="tags__list dropdown__list">
+            <!-- 
+            <option value = "all" selected>all</option>
+            <option value = "free">free</option> ...
+            -->
+         </select>
+      </div>
+   </div>
+   <div class="list">
+      <h1 class="list__type">All Products</h1>
+      <!-- Container of each list item -->
+      <div class="list__container">
+         <!-- Each item with class "list__item" has: Icon, Name, Description & Tags -->
+         <a target="_blank" href="https://send.firefox.com" class="list__item">
+            <div class="icon">
+               <img src="img/firefox.svg" alt="%app%name% logo">
+            </div>
+            <div class="info">
+               <div class="name">Firefox Send</div>
+               <div class="desc">
+                  Share files with end-to-end encryption and a link that automatically expires.
+               </div>
+               <div class="tags">
+                  <span>#cross-platform</span>
+                  <span>#open-source</span>
+                  <span>#freemium</span>
+               </div>
+            </div>
+         </a>
+         <a target="_blank" href="https://app.standardnotes.org" class="list__item">
+            <div class="icon">
+               <img src="img/snotes.jpg" alt="">
+            </div>
+            <div class="info">
+               <div class="name">Standard Notes</div>
+               <div class="desc">
+                  Share files with end-to-end encryption and a link that automatically expires.
+               </div>
+               <div class="tags">
+                  <span>#cross-platform</span>
+                  <span>#open-source</span>
+                  <span>#freemium</span>
+               </div>
+            </div>
+         </a>
+         <a target="_blank" href="https://mega.nz" class="list__item">
+            <div class="icon">
+               <img src="img/mega.svg" alt="">
+            </div>
+            <div class="info">
+               <div class="name">Mega</div>
+               <div class="desc">
+                  Share files with end-to-end encryption and a link that automatically expires.
+               </div>
+               <div class="tags">
+                  <span>#cross-platform</span>
+                  <span>#open-source</span>
+                  <span>#freemium</span>
+               </div>
+            </div>
+         </a>
+         <a target="_blank" href="https://tutanota.com" class="list__item">
+            <div class="icon">
+               <img src="img/tutanota.svg" alt="">
+            </div>
+            <div class="info">
+               <div class="name">Tutanota</div>
+               <div class="desc">
+                  Share files with end-to-end encryption and a link that automatically expires.
+               </div>
+               <div class="tags">
+                  <span>#cross-platform</span>
+                  <span>#open-source</span>
+                  <span>#freemium</span>
+               </div>
+            </div>
+         </a>
+         <a target="_blank" href="https://protonmail.com" class="list__item">
+            <div class="icon">
+               <img src="img/protonmail.svg" alt="">
+            </div>
+            <div class="info">
+               <div class="name">Protonmail</div>
+               <div class="desc">
+                  Share files with end-to-end encryption and a link that automatically expires.
+               </div>
+               <div class="tags">
+                  <span>#cross-platform</span>
+                  <span>#open-source</span>
+                  <span>#freemium</span>
+               </div>
+            </div>
+         </a>
+         <hr class="list__end">
+      </div>
+   </div>
    <!-- Javascript -->
    <script src="js/main.js"></script>
 </body>
