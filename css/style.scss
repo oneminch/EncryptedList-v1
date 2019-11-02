@@ -1,29 +1,37 @@
+@import url("https://rsms.me/inter/inter.css");
+
 $darkColor: #000; // Dark color: Black
 $lightColor: #fff; // Light color: White
+$disclaimerColor: #e74c3c; // Light color: White
 $tinyShadow: -4px 4px 0px $darkColor; // Box shadow for small containers
 $bigShadow: -5px 5px 0px $darkColor; // Box shadow for bigger containers
 $hoverShadow: -7.5px 7.5px 0px #f1c40f; // Box shadow for bigger containers
-$activeBorder: 1px solid $darkColor;  // Border
-// $hoverBorder:  1px solid $lightColor;  // Border on hover
+$activeBorder: 2px solid $darkColor;  // Border
+$roundCorners: 3px;
 
 * {
    outline: none;
    box-sizing: border-box;
    text-decoration: none;
-   font-family: monospace;
+   font-family: "Inter";
    transition-duration: 0.25s;
    background-color: $lightColor;
    color: $darkColor;
+   border-radius: $roundCorners;
    // border: .5px solid red;
 }
 
 html {
-   font-size: 100%;
+   font-size: 90%;
 }
 
 body {
    margin: 0;
    padding: 0 5rem;
+}
+
+h1,h2,h3 {
+   // font-weight: bolder;
 }
 
 .intro {
@@ -53,7 +61,7 @@ body {
       max-width: 768px;
       padding: .75rem;
       margin: .5rem auto;
-      background-color: $darkColor;
+      background-color: $disclaimerColor;
       color: $lightColor;
    }
    .hide {

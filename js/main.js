@@ -205,6 +205,66 @@ const data_json = [
       ]      
    },
    {
+      name: "pDrive",
+      description: "Share files with end-to-end encryption and a link that automatically expires.",
+      url: "https://pdrive.co/",
+      img_url: "./img/pdrive.png",
+      category: [
+         "All", "File Transfer", "Storage"
+      ],
+      tags: [
+         "all", "open-source", "freemium"
+      ]      
+   },
+   {
+      name: "Recall Photos",
+      description: "Share files with end-to-end encryption and a link that automatically expires.",
+      url: "https://app.recall.photos/",
+      img_url: "./img/recallphotos.svg",
+      category: [
+         "All", "File Transfer", "Storage"
+      ],
+      tags: [
+         "all", "open-source", "freemium"
+      ]      
+   },
+   {
+      name: "Photo Vault",
+      description: "Share files with end-to-end encryption and a link that automatically expires.",
+      url: "https://photovault.online/",
+      img_url: "./img/photovault.png",
+      category: [
+         "All", "File Transfer", "Storage"
+      ],
+      tags: [
+         "all", "open-source", "freemium"
+      ]      
+   },
+   {
+      name: "Encrypt My Photos",
+      description: "Share files with end-to-end encryption and a link that automatically expires.",
+      url: "https://encryptmyphotos.com/",
+      img_url: "./img/encryptmyphotos.png",
+      category: [
+         "All", "File Transfer", "Storage"
+      ],
+      tags: [
+         "all", "open-source", "freemium"
+      ]      
+   },
+   {
+      name: "Firefox Notes",
+      description: "Share files with end-to-end encryption and a link that automatically expires.",
+      url: "https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/",
+      img_url: "./img/firefoxnotes.png",
+      category: [
+         "All", "File Transfer", "Storage"
+      ],
+      tags: [
+         "all", "open-source", "freemium"
+      ]      
+   },
+   {
       name: "Standard Notes",
       description: "Take encrypted notes.",
       url: "https://app.standardnotes.org",
