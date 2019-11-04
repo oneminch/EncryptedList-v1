@@ -1,0 +1,25 @@
+{
+  "name": "encryptilist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneminch/encryptedlist.git"
+  },
+  "author": "Dawit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oneminch/encryptedlist/issues"
+  },
+  "homepage": "https://github.com/oneminch/encryptedlist#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

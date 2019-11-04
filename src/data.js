@@ -1,10 +1,10 @@
-const product_list = [
+export const product_list = [
    // List of all products
    {
       name: "Firefox Send",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://send.firefox.com",
-      img_url: "./img/firefox.svg",
+      img_url: "./assets/img/firefox.svg",
       category: [
          "All", "File Transfer"
       ],
@@ -16,7 +16,7 @@ const product_list = [
       name: "Signal",
       description: "messaging",
       url: "https://signal.org",
-      img_url: "./img/signal.png",
+      img_url: "./assets/img/signal.png",
       category: [
          "All", "Messaging"
       ],
@@ -28,7 +28,7 @@ const product_list = [
       name: "EteSync",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://etesync.com",
-      img_url: "./img/etesync.png",
+      img_url: "./assets/img/etesync.png",
       category: [
          "All", "File Transfer"
       ],
@@ -40,7 +40,7 @@ const product_list = [
       name: "SpiderOak",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://send.firefox.com",
-      img_url: "./img/spideroak.svg",
+      img_url: "./assets/img/spideroak.svg",
       category: [
          "All", "File Transfer"
       ],
@@ -52,7 +52,7 @@ const product_list = [
       name: "Skype",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://www.skype.com/en/",
-      img_url: "./img/skype.svg",
+      img_url: "./assets/img/skype.svg",
       category: [
          "All", "File Transfer"
       ],
@@ -64,7 +64,7 @@ const product_list = [
       name: "Wickr",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://wickr.com/",
-      img_url: "./img/wickr.png",
+      img_url: "./assets/img/wickr.png",
       category: [
          "All", "File Transfer"
       ],
@@ -76,7 +76,7 @@ const product_list = [
       name: "Wire",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://wire.com/en/",
-      img_url: "./img/wire.png",
+      img_url: "./assets/img/wire.png",
       category: [
          "All", "File Transfer"
       ],
@@ -88,7 +88,7 @@ const product_list = [
       name: "Telegram",
       description: "messaging",
       url: "https://telegram.org",
-      img_url: "./img/telegram.svg",
+      img_url: "./assets/img/telegram.svg",
       category: [
          "All", "Messaging"
       ],
@@ -100,7 +100,7 @@ const product_list = [
       name: "WhatsApp",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://www.whatsapp.com/",
-      img_url: "./img/whatsapp.svg",
+      img_url: "./assets/img/whatsapp.svg",
       category: [
          "All", "Messaging"
       ],
@@ -112,7 +112,7 @@ const product_list = [
       name: "Threema",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://threema.ch/",
-      img_url: "./img/threema.svg",
+      img_url: "./assets/img/threema.svg",
       category: [
          "All", "Messaging"
       ],
@@ -124,7 +124,7 @@ const product_list = [
       name: "CryptPad",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://cryptpad.fr",
-      img_url: "./img/cryptpad.svg",
+      img_url: "./assets/img/cryptpad.svg",
       category: [
          "All", "File Transfer"
       ],
@@ -136,7 +136,7 @@ const product_list = [
       name: "Protonmail",
       description: "Send e2ee emails",
       url: "https://protonmail.com",
-      img_url: "./img/protonmail.svg",
+      img_url: "./assets/img/protonmail.svg",
       category: [
          "All", "Email"
       ],
@@ -148,7 +148,7 @@ const product_list = [
       name: "Tutanota",
       description: "Send e2ee emails",
       url: "https://Tutanota.com",
-      img_url: "./img/tutanota.svg",
+      img_url: "./assets/img/tutanota.svg",
       category: [
          "All", "Email"
       ],
@@ -160,7 +160,7 @@ const product_list = [
       name: "Mailfence",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://mailfence.com",
-      img_url: "./img/mailfence.png",
+      img_url: "./assets/img/mailfence.png",
       category: [
          "All", "Email"
       ],
@@ -172,7 +172,7 @@ const product_list = [
       name: "Mega",
       description: "Store files with end-to-end encryption.",
       url: "https://mega.nz",
-      img_url: "./img/mega.svg",
+      img_url: "./assets/img/mega.svg",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -184,7 +184,7 @@ const product_list = [
       name: "Tresorit",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://tresorit.com",
-      img_url: "./img/tresorit.svg",
+      img_url: "./assets/img/tresorit.svg",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -196,7 +196,7 @@ const product_list = [
       name: "pDrive",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://pdrive.co/",
-      img_url: "./img/pdrive.png",
+      img_url: "./assets/img/pdrive.png",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -208,7 +208,7 @@ const product_list = [
       name: "Recall Photos",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://app.recall.photos/",
-      img_url: "./img/recallphotos.svg",
+      img_url: "./assets/img/recallphotos.svg",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -220,7 +220,7 @@ const product_list = [
       name: "Photo Vault",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://photovault.online/",
-      img_url: "./img/photovault.png",
+      img_url: "./assets/img/photovault.png",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -232,7 +232,7 @@ const product_list = [
       name: "Encrypt My Photos",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://encryptmyphotos.com/",
-      img_url: "./img/encryptmyphotos.png",
+      img_url: "./assets/img/encryptmyphotos.png",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -244,7 +244,7 @@ const product_list = [
       name: "Firefox Notes",
       description: "Share files with end-to-end encryption and a link that automatically expires.",
       url: "https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/",
-      img_url: "./img/firefoxnotes.png",
+      img_url: "./assets/img/firefoxnotes.png",
       category: [
          "All", "File Transfer", "Storage"
       ],
@@ -256,7 +256,7 @@ const product_list = [
       name: "Standard Notes",
       description: "Take encrypted notes.",
       url: "https://app.standardnotes.org",
-      img_url: "./img/snotes.svg",
+      img_url: "./assets/img/snotes.svg",
       category: [
          "All", "Productivity", "Notes"
       ],
@@ -268,10 +268,10 @@ const product_list = [
 ];
 
 // List of available tags
-const tag_list = [
+export const tag_list = [
    "all", "beta", "free", "premium", "freemium", "proprietary", "open-source", "decentralized", "cross-platform" //, "", "", "", "", ""
 ];
 // List of available categories
-const catergory_list = [
+export const catergory_list = [
    "All", "Email", "Notes", "Storage", "Productivity", "Messaging", "Collaboration"  
 ];

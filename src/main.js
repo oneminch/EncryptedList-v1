@@ -10,10 +10,12 @@ const tag_dropdown = document.querySelector(".tags__list");
 const category_dropdown = document.querySelector(".category__list");   
 const dropdown_lists = document.querySelectorAll(".dropdown__list");
 
-const empty_list_img = "./img/404.png";
+// 404 Image URL for empty list 
+const empty_list_img = "./assets/img/404.png";
 
+// Get data values from 'data.js' module
 const data_array = json_data.product_list;
-const tag_names = json_data.tags_list;
+const tag_names = json_data.tag_list;
 const catergory_names = json_data.catergory_list;
 
 // Load up dropdown values from corresponding arrays
