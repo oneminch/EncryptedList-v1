@@ -1,0 +1,11 @@
+{
+   "presets": [
+      [
+         "env",
+         {
+         "targets": ">1%, not dead"
+         }
+      ]
+   ]
+}
+ 

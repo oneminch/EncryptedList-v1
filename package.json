@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run webpack",
-    "webpack": "webpack -d --watch"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,10 @@
   "homepage": "https://github.com/oneminch/encryptedlist#readme",
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
