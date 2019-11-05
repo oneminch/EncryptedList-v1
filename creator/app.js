@@ -14,11 +14,11 @@ const output = document.querySelector(".output");
 
 // List of available tags
 const tag_list = [
-   "beta", "free", "premium", "freemium", "proprietary", "open-source", "decentralized", "cross-platform" //, "", "", "", "", ""
+   "beta", "free", "premium", "web-app", "freemium", "proprietary", "open-source", "decentralized", "cross-platform" //, "", "", "", "", ""
 ];
 // List of available categories
 const catergory_list = [
-   "Email", "Notes", "Storage", "Productivity", "Messaging", "Collaboration"  
+   "Email", "Notes", "Storage", "Productivity", "Communication", "File Transfer", "Collaboration"  
 ];
 
 const renderOptions = (checkbox_type, checkbox_type_parent) => {
@@ -29,12 +29,14 @@ const renderOptions = (checkbox_type, checkbox_type_parent) => {
          ${checkbox_list_type[0].toUpperCase()}${checkbox_list_type.slice(1)}
       </h3>
    `;
+   let checkbox_id;
    for (let i = 0; i < checkbox_type.length; i++) {
       let val = checkbox_type[i];
+      checkbox_id = val.split(" ")[0];
       checkbox_markup += `
          <div>
-            <input type="checkbox" id=${val} value=${val}>
-            <label for=${val}>
+            <input type="checkbox" id=${checkbox_id} value=${val.split(" ").join("-")}>
+            <label for=${checkbox_id}>
                ${val}
             </label>
          </div>
@@ -68,19 +70,19 @@ submit.addEventListener("click", () => {
    // Get category values
    for (let i = 0; i < c_nodes.length; i++) {
       if (c_nodes[i].checked) {
-         c.push(c_nodes[i].value);
+         c.push(c_nodes[i].value.split("-").join(" "));
       }
    }
 
    let product_markup = `
    <pre>
    {
-      name: ${n},
-      desc: ${d},
-      url: ${u},
-      img_url: ${i},
-      category: [${c}],
-      tags: [${t}]
+      name: "${n}",
+      description: "${d}",
+      url: "${u}",
+      img_url: "${i}",
+      category: ${JSON.stringify(c)},
+      tags: ${JSON.stringify(t)}
    },
    </pre>
    `;
