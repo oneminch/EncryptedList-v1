@@ -103,7 +103,6 @@ body {
    width: 90%;
    max-width: 1024px;
    margin: 1rem auto;
-
    >* {
       margin: 2.5rem 0;
    }
@@ -213,6 +212,7 @@ body {
             align-items: flex-start;
             .icon {
                width: 85px;
+               padding: 1.5rem 1rem;
                img {
                   width: 95%;
                   height: 95%;

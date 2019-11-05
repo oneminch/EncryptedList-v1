@@ -246,7 +246,7 @@ export const product_list = [
       url: "https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/",
       img_url: "./assets/img/firefoxnotes.png",
       category: ["All","Notes","Productivity"],
-      tags: ["all","free","open-source"]
+      tags: ["all","beta","free","open-source"]
    }
 ];
 

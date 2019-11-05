@@ -159,7 +159,8 @@ body {
     height: auto;
     align-items: flex-start; }
     body .list__item .icon {
-      width: 85px; }
+      width: 85px;
+      padding: 1.5rem 1rem; }
       body .list__item .icon img {
         width: 95%;
         height: 95%; }
