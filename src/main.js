@@ -60,7 +60,13 @@ const renderItems = (items_arr) => {
    }
    list_container.innerHTML = "";
    list_container.innerHTML = markup;
-   list_container.insertAdjacentHTML("beforeend", "<hr class='list__end'>");
+   const list_end_markup = `
+      <hr class='list__end'>
+      <a href="https://github.com/oneminch/encryptedlist" class="github-page" title="How to submit">
+      <img src="./assets/img/logo/github.svg" alt="GitHub Page"/>            
+      </a>
+   `;
+   list_container.insertAdjacentHTML("beforeend", list_end_markup);
 };
 
 // Renders items from passed array list 

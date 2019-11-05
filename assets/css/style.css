@@ -82,7 +82,7 @@ body {
   .list__end {
     width: 50%;
     display: block;
-    margin: 3rem auto;
+    margin: 3rem auto 1rem auto;
     border: .5px solid #aaa; }
   .list__container {
     text-align: center; }
@@ -90,6 +90,15 @@ body {
       width: 50%;
       display: block;
       margin: 0 auto; }
+    .list__container .github-page {
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin: 0 auto; }
+      .list__container .github-page img {
+        margin: 5px;
+        width: 30px;
+        height: 30px; }
   .list__item {
     width: 100%;
     min-height: 150px;
