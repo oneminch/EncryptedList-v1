@@ -10,11 +10,11 @@ Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)
       ```
       {
           name: "Product Name",
-          description: "Product URL",
+          description: "Product Description",
           url: "Product Homepage",
           img_url: "./assets/img/{product-name-in-lowercase}.svg",
-          category: ["All","Category Type (e.g. Email)","..."],
-          tags: ["all","Tag Type (e.g. open-source)","..."]     
+          category: ["All","Category Types (e.g. Email)","..."],
+          tags: ["all","Tag Types (e.g. open-source)","..."]     
       }
       ```
     - [main.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js) - renders these values to the UI and is responsible for filtering functionality
