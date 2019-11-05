@@ -1,4 +1,7 @@
 /node_modules
 /assets/css/.sass-cache
 /assets/css/style.css.map
+/creator
+.babelrc
+package-lock.json
 .DS_Store
