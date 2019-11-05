@@ -21,3 +21,4 @@ Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)
 - [./dist](https://github.com/oneminch/encryptedlist/tree/master/dist) - includes the bundled js file
 - [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission form to generate a valid object.
 - [./assets/img/](https://github.com/oneminch/encryptedlist/tree/master/assets/img) - inlcudes icons used for the list of products.
+- [Creator Form](https://github.com/oneminch/encryptedlist/tree/master/creator/index.html)
