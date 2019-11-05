@@ -18,7 +18,7 @@ $roundCorners: 3px;
    background-color: $lightColor;
    color: $darkColor;
    border-radius: $roundCorners;
-   // border: .5px solid red;
+   // border: .1px solid red;
 }
 
 html {
@@ -200,6 +200,34 @@ body {
 @media only screen and (max-width: 768px) {
    body {
       padding: 0 1rem;
+   }
+}
+
+// Screen size: < 640px
+@media only screen and (max-width: 640px) {
+   body {
+      // List of services
+      .list {
+         &__item {
+            height: auto;
+            align-items: flex-start;
+            .icon {
+               width: 85px;
+               img {
+                  width: 95%;
+                  height: 95%;
+               }
+            }
+            .info {
+               width: calc(100% - 85px);
+               .tags {
+                  width: calc(100% + 85px);
+                  position: relative;
+                  left: -85px;
+               }
+            }
+         }
+      }
    }
 }
 

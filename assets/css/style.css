@@ -154,6 +154,21 @@ body {
 @media only screen and (max-width: 768px) {
   body {
     padding: 0 1rem; } }
+@media only screen and (max-width: 640px) {
+  body .list__item {
+    height: auto;
+    align-items: flex-start; }
+    body .list__item .icon {
+      width: 85px; }
+      body .list__item .icon img {
+        width: 95%;
+        height: 95%; }
+    body .list__item .info {
+      width: calc(100% - 85px); }
+      body .list__item .info .tags {
+        width: calc(100% + 85px);
+        position: relative;
+        left: -85px; } }
 @media only screen and (max-width: 480px) {
   body {
     padding: 0 .5rem; }
