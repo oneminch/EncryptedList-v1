@@ -5,20 +5,25 @@
 Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)
 
 - [./src/](https://github.com/oneminch/encryptedlist/tree/master/src) - inlcudes JavaScript files
-    - data.js - contains the list of products, tags and categories available in JSON format.
+    - [data.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js) - contains the list of products, tags and categories available in JSON format.
       - Products are stored as objects:
       ```
       {
-          name: "Firefox Send",
-          description: "Share files with end-to-end encryption and a link that automatically expires.",
-          url: "https://send.firefox.com",
-          img_url: "./assets/img/firefoxsend.svg",
-          category: ["All","File Transfer"],
-          tags: ["all","free","web-app","open-source"]     
+          name: "Product Name",
+          description: "Product URL",
+          url: "Product Homepage",
+          img_url: "./assets/img/{product-name-in-lowercase}.svg",
+          category: ["All","Category Type (e.g. Email)","..."],
+          tags: ["all","Tag Type (e.g. open-source)","..."]     
       }
       ```
-    - main.js - renders these values to the UI and is responsible for filtering functionality
+    - [main.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js) - renders these values to the UI and is responsible for filtering functionality
 - [./dist](https://github.com/oneminch/encryptedlist/tree/master/dist) - includes the bundled js file
-- [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission form to generate a valid object.
 - [./assets/img/](https://github.com/oneminch/encryptedlist/tree/master/assets/img) - inlcudes icons used for the list of products.
-- [Creator Form](https://github.com/oneminch/encryptedlist/tree/master/creator/index.html)
+- [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission [form](https://oneminch.github.io/encryptedlist/creator/index.html) to generate a valid object.
+### Submit a product
+I haven't set up a proper way to submit product information yet. So use this,
+1. Add necessary data to  [form](https://oneminch.github.io/encryptedlist/creator/index.html) (name, description, url, ...) and hit submit.
+2. An object is generated at the bottom of the page; Continue submiting other products (if any) and all the objects generated will be listed at the bottom of the page.
+3. Copy + Paste the generated object(s) to `product_list` array in [data.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js)
+4. Submit pull request
