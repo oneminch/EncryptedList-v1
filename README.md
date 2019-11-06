@@ -20,10 +20,16 @@ Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)
     - [main.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js) - renders these values to the UI and is responsible for filtering functionality
 - [./dist](https://github.com/oneminch/encryptedlist/tree/master/dist) - includes the bundled js file
 - [./assets/img/](https://github.com/oneminch/encryptedlist/tree/master/assets/img) - inlcudes icons used for the list of products.
+- [./assets/css/](https://github.com/oneminch/encryptedlist/tree/master/assets/css) - inlcudes the css files used for this project.
 - [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission [form](https://oneminch.github.io/encryptedlist/creator/index.html) to generate a valid object.
+
+If files in ./src/ are modified, use `npm run build` to bundle them.  
+
+If the `style.scss` file in ./assets/css/ is modified, use `sass --watch style.scss:style.css` to compile it to the `style.css` file located in the same directory.
+
 ### Submit a product
 I haven't set up a proper way to submit product information yet. So use this,
-1. Add necessary data to  [form](https://oneminch.github.io/encryptedlist/creator/index.html) (name, description, url, ...) and hit submit.
+1. Add necessary data to  [form](https://oneminch.github.io/encryptedlist/creator/index.html) (name, description, url, ...) and hit 'Generate'.
 2. An object is generated at the bottom of the page; Continue submiting other products (if any) and all the objects generated will be listed at the bottom of the page.
 3. Copy + Paste the generated object(s) to `product_list` array in [data.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js)
 4. Submit pull request
