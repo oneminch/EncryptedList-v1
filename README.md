@@ -17,11 +17,11 @@ Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)
           tags: ["all","Tag Types (e.g. open-source)","..."]     
       }
       ```
-    - [main.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js) - renders these values to the UI and is responsible for filtering functionality
+    - [main.js](https://github.com/oneminch/encryptedlist/tree/master/src/main.js) - renders these values to the UI and is responsible for filtering functionality
 - [./dist](https://github.com/oneminch/encryptedlist/tree/master/dist) - includes the bundled js file
 - [./assets/img/](https://github.com/oneminch/encryptedlist/tree/master/assets/img) - inlcudes icons used for the list of products.
 - [./assets/css/](https://github.com/oneminch/encryptedlist/tree/master/assets/css) - inlcudes the css files used for this project.
-- [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission [form](https://oneminch.github.io/encryptedlist/creator/index.html) to generate a valid object.
+- [./creator](https://github.com/oneminch/encryptedlist/tree/master/creator) - includes a page with product submission [form](https://oneminch.github.io/encryptedlist/creator) to generate a valid object.
 
 If files in ./src/ are modified, use `npm run build` to bundle them.  
 
