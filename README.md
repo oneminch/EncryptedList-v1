@@ -29,7 +29,7 @@ If the `style.scss` file in ./assets/css/ is modified, use `sass --watch style.s
 
 ### Submit a product
 I haven't set up a proper way to submit product information yet. So use this,
-1. Add necessary data to  [form](https://oneminch.github.io/encryptedlist/creator/index.html) (name, description, url, ...) and hit 'Generate'.
+1. Add necessary data to  [form](https://oneminch.github.io/encryptedlist/creator) (name, description, url, ...) and hit 'Generate'.
 2. An object is generated at the bottom of the page; Continue submiting other products (if any) and all the objects generated will be listed at the bottom of the page.
 3. Copy + Paste the generated object(s) to `product_list` array in [data.js](https://github.com/oneminch/encryptedlist/tree/master/src/data.js)
 4. Submit pull request
