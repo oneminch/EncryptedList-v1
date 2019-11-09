@@ -49,6 +49,14 @@ export const product_list = [
       tags: ["all","web-app","freemium","open-source","cross-platform"]
    },
    {
+      name: "Riot",
+      description: "A secure and robust communication and collaboration platform.",
+      url: "https://about.riot.im/",
+      img_url: "./assets/img/riot.svg",
+      category: ["All","Communication","File Transfer","Collaboration"],
+      tags: ["all","free","web-app","open-source","decentralized","cross-platform"]
+   },
+   {
       name: "Stackfield",
       description: "Encrypted projects, tasks & team communication.",
       url: "https://www.stackfield.com/",

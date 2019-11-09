@@ -1,7 +1,7 @@
 {
   "name": "encryptilist",
   "version": "1.0.0",
-  "description": "",
+  "description": "Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
@@ -24,5 +24,6 @@
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "keywords": []
 }
