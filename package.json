@@ -2,7 +2,7 @@
   "name": "encryptilist",
   "version": "1.0.0",
   "description": "Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack)",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },

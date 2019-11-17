@@ -129,6 +129,14 @@ export const product_list = [
       tags: ["all","free","proprietary","cross-platform"]
    },
    {
+      name: "KeeperChat",
+      description: "Communicate privately with end-to-end encryption for messages at rest and in transit.",
+      url: "https://keepersecurity.com/keeperchat.html",
+      img_url: "./assets/img/keeperchat.svg",
+      category: ["All","Communication"],
+      tags: ["all","premium","proprietary","cross-platform"]
+   },
+   {
       name: "Threema",
       description: "An encrypted messenger built with security and privacy in mind.",
       url: "https://threema.ch/en",
