@@ -1,5 +1,3 @@
-@import url("https://rsms.me/inter/inter.css");
-
 $darkColor: #000; // Dark color: Black
 $lightColor: #fff; // Light color: White
 $disclaimerColor: #e74c3c; // Light color: White
@@ -9,11 +7,35 @@ $hoverShadow: -7.5px 7.5px 0px #f1c40f; // Box shadow for bigger containers
 $activeBorder: 2px solid $darkColor;  // Border
 $roundCorners: 3px;
 
+// Import regular font
+@font-face {
+   font-family: 'Metropolis-Regular';
+   src: url('fonts/Metropolis-Regular.eot');
+   src: url('fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Metropolis-Regular.woff2') format('woff2'),
+        url('fonts/Metropolis-Regular.woff') format('woff'),
+        url('fonts/Metropolis-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+// Import bold font
+@font-face {
+   font-family: 'Metropolis-Bold';
+   src: url('fonts/Metropolis-Bold.eot');
+   src: url('fonts/Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Metropolis-Bold.woff2') format('woff2'),
+        url('fonts/Metropolis-Bold.woff') format('woff'),
+        url('fonts/Metropolis-Bold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
 * {
    outline: none;
    box-sizing: border-box;
    text-decoration: none;
-   font-family: "Inter", sans-serif;
+   font-family: 'Metropolis-Regular', sans-serif;
    transition-duration: 0.25s;
    background-color: $lightColor;
    color: $darkColor;
@@ -28,6 +50,10 @@ html {
 body {
    margin: 0;
    padding: 0 5rem;
+}
+
+h1, h2, h3, h4 {
+   font-family: 'Metropolis-Bold', sans-serif; 
 }
 
 .intro {
@@ -80,7 +106,7 @@ body {
    > div {
       margin: 0 2rem;
       label {
-         font-weight: bold;
+         font-family: 'Metropolis-Bold', sans-serif;
          font-size: 1.25rem;
       }
    }
@@ -169,7 +195,7 @@ body {
             height: auto;
          }
          .name {
-            font-weight: bold;
+            font-family: 'Metropolis-Bold', sans-serif;
          }
          .desc {
             padding-right: 1.25rem;
