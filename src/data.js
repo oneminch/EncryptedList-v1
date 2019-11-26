@@ -246,7 +246,7 @@ export const product_list = [
       url: "https://www.boxcryptor.com/en/",
       img_url: "./assets/img/boxcryptor.png",
       category: ["All","Storage"],
-      tags: ["all","freemium","open-source","cross-platform"]
+      tags: ["all","freemium","proprietary","cross-platform"]
    },
    {
       name: "Bitwarden",
