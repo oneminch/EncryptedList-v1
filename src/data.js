@@ -241,6 +241,38 @@ export const product_list = [
       tags: ["all","free","web-app","open-source","decentralized"]
    },
    {
+      name: "Boxcryptor",
+      description: "End-to-end encryption for your cloud data.",
+      url: "https://www.boxcryptor.com/en/",
+      img_url: "./assets/img/boxcryptor.png",
+      category: ["All","Storage"],
+      tags: ["all","freemium","open-source","cross-platform"]
+   },
+   {
+      name: "Bitwarden",
+      description: "Open source password management solutions with end-to-end encryption.",
+      url: "https://www.bitwarden.com/",
+      img_url: "./assets/img/bitwarden.png",
+      category: ["All","Storage","Productivity"],
+      tags: ["all","web-app","freemium","open-source","cross-platform"]
+   },
+   {
+      name: "Roboform",
+      description: "Password management tool for individuals and businesses.",
+      url: "https://www.roboform.com/",
+      img_url: "./assets/img/roboform.png",
+      category: ["All","Storage","Productivity"],
+      tags: ["all","web-app","freemium","proprietary","cross-platform"]
+   },
+   {
+      name: "1Password",
+      description: "A private by design end-to-end encrypted password manager.",
+      url: "https://www.1password.com/",
+      img_url: "./assets/img/1password.png",
+      category: ["All","Storage","Productivity"],
+      tags: ["all","premium","web-app","proprietary","cross-platform"]
+   },
+   {
       name: "Secure Calendar",
       description: "Secure, end-to-end encrypted, and privacy respecting calendar.",
       url: "https://securecalendar.online/",
