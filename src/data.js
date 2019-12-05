@@ -113,6 +113,14 @@ export const product_list = [
       tags: ["all","free","web-app","proprietary","cross-platform"]
    },
    {
+      name: "Google Duo",
+      description: "Simple and secure video calling with upto 8 people.",
+      url: "https://duo.google.com/about/",
+      img_url: "./assets/img/duo.png",
+      category: ["All","Communication"],
+      tags: ["all","free","web-app","proprietary","cross-platform"]
+   },
+   {
       name: "Telegram",
       description: "A cloud-based messaging app which offers e2ee when using Secret Chats",
       url: "https://telegram.org/",
