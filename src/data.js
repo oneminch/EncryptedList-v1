@@ -49,7 +49,7 @@ export const product_list = [
 		description:
 			"A collaboration platform with the most advanced security and superior user experience.",
 		url: "https://wire.com/en/",
-		img_url: "./assets/img/wire.png",
+		img_url: "./assets/img/wire.svg",
 		category: [
 			"All",
 			"Productivity",
@@ -58,6 +58,15 @@ export const product_list = [
 			"Collaboration"
 		],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Tox",
+		description:
+			"Encrypted instant messaging that is free, distributed, and open-source.",
+		url: "https://tox.chat/",
+		img_url: "./assets/img/tox.svg",
+		category: ["All", "Communication", "File Transfer", "Collaboration"],
+		tags: ["all", "beta", "free", "open-source", "cross-platform"]
 	},
 	{
 		name: "Riot",
@@ -74,6 +83,24 @@ export const product_list = [
 			"decentralized",
 			"cross-platform"
 		]
+	},
+	{
+		name: "Viber",
+		description:
+			"Free and secure calls and messages with end-to-end encryption.",
+		url: "https://www.viber.com/",
+		img_url: "./assets/img/viber.svg",
+		category: ["All", "Communication"],
+		tags: ["all", "free", "proprietary", "cross-platform"]
+	},
+	{
+		name: "Facebook Messenger",
+		description:
+			"End-to-end encrypted messages when using opt-in 'Secret Conversations'.",
+		url: "https://www.messenger.com/",
+		img_url: "./assets/img/messenger.svg",
+		category: ["All", "Communication", "File Transfer"],
+		tags: ["all", "free", "web-app", "proprietary", "cross-platform"]
 	},
 	{
 		name: "Stackfield",
@@ -314,7 +341,7 @@ export const product_list = [
 		description:
 			"Open source password management solutions with end-to-end encryption.",
 		url: "https://www.bitwarden.com/",
-		img_url: "./assets/img/bitwarden.png",
+		img_url: "./assets/img/bitwarden.svg",
 		category: ["All", "Storage", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
 	},
