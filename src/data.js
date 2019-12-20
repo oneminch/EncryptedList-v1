@@ -27,14 +27,6 @@ export const product_list = [
 		tags: ["all", "web-app", "premium", "open-source", "cross-platform"]
 	},
 	{
-		name: "Mumble",
-		description: "An end to end encrypted text and voice chat for online communities.",
-		url: "https://trymumble.com",
-		img_url: "./assets/img/mumble-logo.svg",
-		category: ["All","Communication","Collaboration"],
-		tags: ["all","free","web-app","decentralized"]
-	 },  
-	{
 		name: "Scannie",
 		description:
 			"Secure and end-to-end encrypted document scanner and storage.",
@@ -91,6 +83,15 @@ export const product_list = [
 			"decentralized",
 			"cross-platform"
 		]
+	},
+	{
+		name: "Mumble",
+		description:
+			"An end to end encrypted text and voice chat for online communities.",
+		url: "https://trymumble.com",
+		img_url: "./assets/img/mumble.svg",
+		category: ["All", "Communication", "Collaboration"],
+		tags: ["all", "free", "web-app", "decentralized"]
 	},
 	{
 		name: "Viber",
