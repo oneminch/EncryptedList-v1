@@ -28,7 +28,7 @@ export const product_list = [
 	},
 	{
 		name: "Mumble",
-		description: "Mumble is an end to end encrypted text and voice chat for online communities. ",
+		description: "An end to end encrypted text and voice chat for online communities.",
 		url: "https://trymumble.com",
 		img_url: "./assets/img/mumble-logo.svg",
 		category: ["All","Communication","Collaboration"],
