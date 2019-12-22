@@ -94,6 +94,28 @@ export const product_list = [
 		tags: ["all", "free", "web-app", "decentralized"]
 	},
 	{
+		name: "MsgSafe.io",
+		description:
+			"Ephemeral Chat, Encrypted Voice and Video Calling, and End-to-End Encrypted Email.",
+		url: "https://www.msgsafe.io",
+		img_url: "./assets/img/msgsafe.png",
+		category: [
+			"All",
+			"Email",
+			"Productivity",
+			"Communication",
+			"File Transfer"
+		],
+		tags: [
+			"all",
+			"beta",
+			"web-app",
+			"freemium",
+			"proprietary",
+			"cross-platform"
+		]
+	},
+	{
 		name: "Viber",
 		description:
 			"Free and secure calls and messages with end-to-end encryption.",
@@ -337,6 +359,14 @@ export const product_list = [
 		tags: ["all", "freemium", "proprietary", "cross-platform"]
 	},
 	{
+		name: "NordLocker",
+		description: "File encryption: store and share data securely",
+		url: "https://nordlocker.com/",
+		img_url: "./assets/img/nordlocker.png",
+		category: ["All", "Storage", "Productivity", "File Transfer"],
+		tags: ["all", "premium", "proprietary", "cross-platform"]
+	},
+	{
 		name: "Virtru",
 		description:
 			"Easily Protect Your Data Wherever It’s Created or Shared with End-to-End Encryption.",
@@ -353,6 +383,31 @@ export const product_list = [
 		img_url: "./assets/img/bitwarden.svg",
 		category: ["All", "Storage", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Padloc",
+		description:
+			"A modern, open-source and encrypted password manager for individuals and teams.",
+		url: "https://padloc.app/",
+		img_url: "./assets/img/padloc.png",
+		category: ["All", "Storage", "Productivity"],
+		tags: [
+			"all",
+			"beta",
+			"web-app",
+			"freemium",
+			"open-source",
+			"cross-platform"
+		]
+	},
+	{
+		name: "LastPass",
+		description:
+			"Password manager and digital vault to manage your credentials.",
+		url: "https://www.lastpass.com/",
+		img_url: "./assets/img/lastpass.svg",
+		category: ["All", "Storage", "Productivity"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
 	},
 	{
 		name: "Roboform",
