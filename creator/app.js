@@ -18,7 +18,7 @@ const tag_list = [
 ];
 // List of available categories
 const catergory_list = [
-   "Email", "Notes", "Storage", "Productivity", "Communication", "File Transfer", "Collaboration"  
+   "Email", "Notes", "Storage", "Finance", "Utilities", "Productivity", "Communication", "File Transfer", "Collaboration"  
 ];
 
 const renderOptions = (checkbox_type, checkbox_type_parent) => {
