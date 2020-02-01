@@ -355,7 +355,7 @@ export const product_list = [
 		description: "End-to-end encryption for your cloud data.",
 		url: "https://www.boxcryptor.com/en/",
 		img_url: "./assets/img/boxcryptor.png",
-		category: ["All", "Storage"],
+		category: ["All", "Utilities", "Storage"],
 		tags: ["all", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -381,7 +381,7 @@ export const product_list = [
 			"Open source password management solutions with end-to-end encryption.",
 		url: "https://www.bitwarden.com/",
 		img_url: "./assets/img/bitwarden.svg",
-		category: ["All", "Storage", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
 	},
 	{
@@ -390,7 +390,7 @@ export const product_list = [
 			"A modern, open-source and encrypted password manager for individuals and teams.",
 		url: "https://padloc.app/",
 		img_url: "./assets/img/padloc.png",
-		category: ["All", "Storage", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Productivity"],
 		tags: [
 			"all",
 			"beta",
@@ -406,7 +406,7 @@ export const product_list = [
 			"Password manager and digital vault to manage your credentials.",
 		url: "https://www.lastpass.com/",
 		img_url: "./assets/img/lastpass.svg",
-		category: ["All", "Storage", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Productivity"],
 		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -414,7 +414,7 @@ export const product_list = [
 		description: "Password management tool for individuals and businesses.",
 		url: "https://www.roboform.com/",
 		img_url: "./assets/img/roboform.png",
-		category: ["All", "Storage", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Productivity"],
 		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -422,7 +422,7 @@ export const product_list = [
 		description: "A private by design end-to-end encrypted password manager.",
 		url: "https://www.1password.com/",
 		img_url: "./assets/img/1password.png",
-		category: ["All", "Storage", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Productivity"],
 		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
 	},
 	{
@@ -431,7 +431,7 @@ export const product_list = [
 			"Free zero-knowledge calendar with built-in encryption by Tutanota.",
 		url: "https://tutanota.com/calendar/",
 		img_url: "./assets/img/tutanota.svg",
-		category: ["All", "Email", "Productivity"],
+		category: ["All", "Email", "Utilities", "Productivity"],
 		tags: ["all", "free", "web-app", "open-source", "cross-platform"]
 	},
 	{
@@ -440,7 +440,7 @@ export const product_list = [
 			"Secure, end-to-end encrypted, and privacy respecting calendar.",
 		url: "https://securecalendar.online/",
 		img_url: "./assets/img/securecalendar.png",
-		category: ["All", "Productivity"],
+		category: ["All", "Utilities", "Productivity"],
 		tags: ["all", "free", "web-app", "open-source", "decentralized"]
 	},
 	{
@@ -459,6 +459,15 @@ export const product_list = [
 		img_url: "./assets/img/firefoxnotes.png",
 		category: ["All", "Notes", "Productivity"],
 		tags: ["all", "beta", "free", "open-source"]
+	},
+	{
+		name: "Recap",
+		description:
+			"UK crypto Capital Gains tax reports & filing with end-to-end encryption.",
+		url: "https://recap.io/",
+		img_url: "./assets/img/recap.png",
+		category: ["All", "Finance", "Productivity"],
+		tags: ["all", "web-app", "freemium", "proprietary"]
 	}
 ];
 
@@ -480,6 +489,8 @@ export const catergory_list = [
 	"Email",
 	"Notes",
 	"Storage",
+	"Finance",
+	"Utilities",
 	"Productivity",
 	"Communication",
 	"File Transfer",
