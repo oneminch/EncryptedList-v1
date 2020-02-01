@@ -476,6 +476,7 @@ export const tag_list = [
 	"all",
 	"beta",
 	"free",
+	"web-app",
 	"premium",
 	"freemium",
 	"proprietary",
