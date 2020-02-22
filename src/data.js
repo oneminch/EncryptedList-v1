@@ -1,6 +1,56 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "ownCloud",
+		description:
+			"Open-source, self-hosted and secure file sync, share and storage for individuals & businesses.",
+		url: "https://owncloud.com/",
+		img_url: "./assets/img/owncloud.svg",
+		category: [
+			"All",
+			"Storage",
+			"Productivity",
+			"File Transfer",
+			"Collaboration"
+		],
+		tags: ["all", "freemium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Pushbullet",
+		description:
+			"Share links, messages, files and notifications across your connected devices. ",
+		url: "https://www.pushbullet.com/",
+		img_url: "./assets/img/pushbullet.png",
+		category: ["All", "Utilities", "Productivity", "File Transfer"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "FocusWriter",
+		description:
+			"A free, private, distraction-free and customizable writing app.",
+		url: "https://focuswriter.co/",
+		img_url: "./assets/img/focuswriter.png",
+		category: ["All", "Notes", "Productivity"],
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+	},
+	{
+		name: "Okuna",
+		description:
+			" Crowd-funded, open-source, ethical social network for a brighter tomorrow. ",
+		url: "https://www.okuna.io/",
+		img_url: "./assets/img/okuna.png",
+		category: ["All", "Utilities", "Communication"],
+		tags: ["all", "beta", "free", "web-app", "open-source"]
+	},
+	{
+		name: "Passwork",
+		description: "Cloud and Self-hosted password manager for businesses.",
+		url: "https://passwork.me/",
+		img_url: "./assets/img/passwork.png",
+		category: ["All", "Storage", "Utilities"],
+		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
+	},
+	{
 		name: "Firefox Send",
 		description:
 			"Share files with end-to-end encryption and a link that automatically expires.",
