@@ -1,6 +1,50 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "PreVeil",
+		description:
+			"Encrypted email and file sharing for individuals and businesses.",
+		url: "https://www.preveil.com",
+		img_url: "./assets/img/preveil.png",
+		category: ["All", "Email", "Storage", "Communication", "File Transfer"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "Sync",
+		description:
+			"Secure cloud storage & file transfer with end-to-end encryption",
+		url: "https://www.sync.com",
+		img_url: "./assets/img/sync.png",
+		category: ["All", "Storage", "File Transfer"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "Tok",
+		description: "Distributed, Anonymous & Secure Messaging",
+		url: "https://www.tok.life",
+		img_url: "./assets/img/tok.png",
+		category: ["All", "Communication"],
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+	},
+	{
+		name: "Session",
+		description:
+			"An end-to-end encrypted messenger that removes sensitive metadata collection.",
+		url: "https://getsession.org/",
+		img_url: "./assets/img/session.png",
+		category: ["All", "Communication", "File Transfer"],
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+	},
+	{
+		name: "Inkdrop",
+		description:
+			"End-to-end encrypted note-taking app with robust Markdown editor built for devs.",
+		url: "https://inkdrop.app/",
+		img_url: "./assets/img/inkdrop.png",
+		category: ["All", "Notes", "Productivity"],
+		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
+	},
+	{
 		name: "ownCloud",
 		description:
 			"Open-source, self-hosted and secure file sync, share and storage for individuals & businesses.",
