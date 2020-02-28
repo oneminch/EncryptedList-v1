@@ -1,6 +1,85 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "Kontalk",
+		description:
+			"Community-driven, encrypted, distributed and open-source instant messaging.",
+		url: "https://www.kontalk.org/",
+		img_url: "./assets/img/kontalk.png",
+		category: ["All", "Communication", "File Transfer"],
+		tags: ["all", "free", "open-source", "cross-platform"]
+	},
+	{
+		name: "Silence",
+		description:
+			"A full replacement for the default text messaging application where all messages are encrypted.",
+		url: "https://www.silence.im",
+		img_url: "./assets/img/silence.png",
+		category: ["All", "Communication"],
+		tags: ["all", "free", "open-source"]
+	},
+	{
+		name: "Rocket.Chat",
+		description:
+			"A scalable & open source communication and collaboration tool for teams.",
+		url: "https://www.rocket.chat",
+		img_url: "./assets/img/rocketchat.png",
+		category: [
+			"All",
+			"Utilities",
+			"Productivity",
+			"Communication",
+			"Collaboration"
+		],
+		tags: [
+			"all",
+			"free",
+			"web-app",
+			"freemium",
+			"open-source",
+			"cross-platform"
+		]
+	},
+	{
+		name: "FortKnoxster",
+		description: "Private and secure messaging, calling and storage.",
+		url: "https://www.fortknoxster.com",
+		img_url: "./assets/img/fortknoxster.png",
+		category: [
+			"All",
+			"Storage",
+			"Communication",
+			"File Transfer",
+			"Collaboration"
+		],
+		tags: [
+			"all",
+			"free",
+			"web-app",
+			"proprietary",
+			"decentralized",
+			"cross-platform"
+		]
+	},
+	{
+		name: "Jami",
+		description:
+			"Distributed communication platform which respects the freedom and privacy of users.",
+		url: "https://www.jami.net",
+		img_url: "./assets/img/jami.png",
+		category: ["All", "Communication", "Collaboration"],
+		tags: ["all", "free", "open-source", "cross-platform"]
+	},
+	{
+		name: "Seecrypt",
+		description:
+			"Secure real-time messaging, voice, and conference calls & encrypted file sharing.",
+		url: "https://www.seecrypt.com/",
+		img_url: "./assets/img/seecrypt.png",
+		category: ["All", "Communication", "File Transfer"],
+		tags: ["all", "premium", "proprietary", "cross-platform"]
+	},
+	{
 		name: "PreVeil",
 		description:
 			"Encrypted email and file sharing for individuals and businesses.",

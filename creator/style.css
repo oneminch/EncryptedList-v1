@@ -21,7 +21,7 @@ body {
    padding: 0 5rem;
 }
 
-h2 { 
+h2 {
    text-align: center;
    margin: 3rem 0;
 }
@@ -57,7 +57,7 @@ h2 {
    align-items: center;
 }
 
-.img_url > * {
+.img_url>* {
    height: 40px;
 }
 
@@ -76,7 +76,9 @@ h2 {
 label {
    cursor: pointer;
 }
-.tags, .categories {
+
+.tags,
+.categories {
    width: 50%;
    display: block;
    float: left;
@@ -84,7 +86,8 @@ label {
    border: none;
 }
 
-.tags > *, .categories > * {
+.tags>*,
+.categories>* {
    width: 100%;
    margin: .5rem;
    background: transparent;
@@ -106,14 +109,24 @@ label {
    border: 2px solid #000;
 }
 
+.commit-msg {
+   width: 100%;
+   display: block;
+   background: #ddd;
+   padding: .5rem;
+   margin-bottom: 1rem;
+}
+
 /* Screen size: < 768px */
 @media only screen and (max-width: 768px) {
    body {
       padding: 0 2rem;
    }
+
    body .container {
       width: 100%;
    }
+
    body .output {
       width: 100%;
    }
@@ -121,7 +134,9 @@ label {
 
 /* Screen size: < 420px */
 @media only screen and (max-width: 420px) {
-   body .tags, body .categories {
+
+   body .tags,
+   body .categories {
       width: 100%;
       display: block;
       float: none;
