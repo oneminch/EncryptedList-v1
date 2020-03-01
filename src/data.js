@@ -1,6 +1,99 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "ChatSecure",
+		description:
+			"A free and open source messaging app for iOS with end-to-end encryption.",
+		url: "https://chatsecure.org/",
+		img_url: "./assets/img/chatsecure.png",
+		category: ["All", "Communication"],
+		tags: ["all", "free", "open-source"]
+	},
+	{
+		name: "Symphony",
+		description:
+			"Secure team communication, file-sharing and automation tools for financial firms.",
+		url: "https://symphony.com/",
+		img_url: "./assets/img/symphony.png",
+		category: ["All", "Communication", "File Transfer", "Collaboration"],
+		tags: ["all", "premium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "ToffeeShare",
+		description:
+			"Private & secure peer-to-peer file transfer, with no size limits.",
+		url: "https://toffeeshare.com/",
+		img_url: "./assets/img/toffeeshare.png",
+		category: ["All", "File Transfer"],
+		tags: ["all", "web-app", "freemium", "proprietary"]
+	},
+	{
+		name: "wölkli Mail",
+		description: "Swiss email built with privacy and security in mind.",
+		url: "https://woelklimail.com/en",
+		img_url: "./assets/img/woelklimail.png",
+		category: ["All", "Email", "Communication"],
+		tags: ["all", "web-app", "freemium", "proprietary"]
+	},
+	{
+		name: "Confrere",
+		description: "1-on-1 Video calling for professionals.",
+		url: "https://confrere.com/",
+		img_url: "./assets/img/confrere.png",
+		category: ["All", "Communication"],
+		tags: ["all", "premium", "web-app", "proprietary"]
+	},
+	{
+		name: "Webex Teams",
+		description: "Secure team collaboration, file sharing and messaging.",
+		url: "https://www.webex.com/team-collaboration.html",
+		img_url: "./assets/img/webexteams.png",
+		category: ["All", "Communication", "File Transfer", "Collaboration"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "NextCloud",
+		description:
+			"A self-hosted productivity platform & suite of products for individuals and teams.",
+		url: "https://nextcloud.com/",
+		img_url: "./assets/img/nextcloud.png",
+		category: [
+			"All",
+			"Email",
+			"Storage",
+			"Productivity",
+			"Communication",
+			"File Transfer",
+			"Collaboration"
+		],
+		tags: ["all", "free", "premium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Cyph",
+		description: "Easy quantum-computing-resistant messaging on any device.",
+		url: "https://cyph.com/",
+		img_url: "./assets/img/cyph.png",
+		category: ["All", "Notes", "Storage", "Communication"],
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Jetdrop",
+		description: "Free & secure file sharing upto 10GB.",
+		url: "https://www.jetdrop.net/",
+		img_url: "./assets/img/jetdrop.png",
+		category: ["All", "File Transfer"],
+		tags: ["all", "free", "web-app", "proprietary"]
+	},
+	{
+		name: "Zebu",
+		description:
+			"Messaging, file management and scheduling all in one platform ",
+		url: "https://www.zebu.io",
+		img_url: "./assets/img/zebu.png",
+		category: ["All", "Storage", "Productivity", "Communication"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
 		name: "Kontalk",
 		description:
 			"Community-driven, encrypted, distributed and open-source instant messaging.",
