@@ -1,6 +1,76 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "Librem One",
+		description:
+			"A bundle of secure, ethical and privacy-respecting products: Librem Mail, Librem Chat, Librem Files, Librem Backup, Librem Contacts.",
+		url: "https://librem.one",
+		img_url: "./assets/img/librem.svg",
+		category: [
+			"All",
+			"Email",
+			"Storage",
+			"Productivity",
+			"Communication",
+			"File Transfer"
+		],
+		tags: [
+			"all",
+			"freemium",
+			"open-source",
+			"decentralized",
+			"cross-platform"
+		]
+	},
+	{
+		name: "Status",
+		description:
+			"A secure P2P messenger, decentralized crypto wallet, and Web3 browser, all-in-one.",
+		url: "https://status.im",
+		img_url: "./assets/img/status.png",
+		category: [
+			"All",
+			"Finance",
+			"Utilities",
+			"Communication",
+			"File Transfer"
+		],
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+	},
+	{
+		name: "Criptext",
+		description:
+			"An encrypted email service that guarantees security, privacy and control over all your email communications.",
+		url: "https://www.criptext.com/en/",
+		img_url: "./assets/img/criptext.png",
+		category: ["All", "Email", "Communication"],
+		tags: [
+			"all",
+			"beta",
+			"free",
+			"open-source",
+			"decentralized",
+			"cross-platform"
+		]
+	},
+	{
+		name: "Voxer",
+		description:
+			"A walkie talkie messenger with end-to-end encryption when using 'Private Chats'.",
+		url: "https://www.voxer.com",
+		img_url: "./assets/img/voxer.png",
+		category: ["All", "Communication"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "FlowCrypt",
+		description: "End-to-end encryption for email with PGP.",
+		url: "https://www.flowcrypt.com",
+		img_url: "./assets/img/flowcrypt.png",
+		category: ["All", "Email", "Communication"],
+		tags: ["all", "freemium", "open-source", "cross-platform"]
+	},
+	{
 		name: "ChatSecure",
 		description:
 			"A free and open source messaging app for iOS with end-to-end encryption.",
