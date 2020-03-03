@@ -627,23 +627,6 @@ export const product_list = [
 		tags: ["all", "web-app", "premium", "proprietary", "cross-platform"]
 	},
 	{
-		name: "SpiderOak",
-		description:
-			"A suite of end-to-end encrypted services: Semaphor, One Backup and Encryptr.",
-		url: "https://spideroak.com/",
-		img_url: "./assets/img/spideroak.svg",
-		category: ["All", "Storage", "Communication", "Collaboration"],
-		tags: [
-			"all",
-			"free",
-			"premium",
-			"proprietary",
-			"open-source",
-			"decentralized",
-			"cross-platform"
-		]
-	},
-	{
 		name: "pDrive",
 		description:
 			"A safe, secure and 100% private storage with built-in end-to-end encryption.",
