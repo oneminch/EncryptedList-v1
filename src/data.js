@@ -1,6 +1,23 @@
 export const product_list = [
 	// List of all products
 	{
+		name: "Mailvelope",
+		description:
+			"An extension that provides encryption for your existing emails.",
+		url: "https://www.mailvelope.com/en",
+		img_url: "./assets/img/mailvelope.png",
+		category: ["All", "Email", "Communication"],
+		tags: ["all", "free", "open-source", "cross-platform"]
+	},
+	{
+		name: "Day One",
+		description: "A simple and cross platform journaling app.",
+		url: "https://dayoneapp.com/",
+		img_url: "./assets/img/dayone.png",
+		category: ["All", "Notes", "Utilities"],
+		tags: ["all", "freemium", "proprietary", "cross-platform"]
+	},
+	{
 		name: "Librem One",
 		description:
 			"A bundle of secure, ethical and privacy-respecting products: Librem Mail, Librem Chat, Librem Files, Librem Backup, Librem Contacts.",
@@ -378,7 +395,7 @@ export const product_list = [
 		url: "https://wickr.com/",
 		img_url: "./assets/img/wickr.png",
 		category: ["All", "Communication", "Collaboration"],
-		tags: ["all", "freemium", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"]
 	},
 	{
 		name: "Wire",
@@ -427,7 +444,7 @@ export const product_list = [
 		url: "https://trymumble.com",
 		img_url: "./assets/img/mumble.svg",
 		category: ["All", "Communication", "Collaboration"],
-		tags: ["all", "free", "web-app", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
 	},
 	{
 		name: "MsgSafe.io",
@@ -633,7 +650,7 @@ export const product_list = [
 		url: "https://pdrive.co/",
 		img_url: "./assets/img/pdrive.png",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
 	},
 	{
 		name: "Encrypt My Photos",
@@ -765,7 +782,7 @@ export const product_list = [
 	{
 		name: "Standard Notes",
 		description: "A free, open-source, and completely encrypted notes app.",
-		url: "https://app.standardnotes.org",
+		url: "https://standardnotes.org",
 		img_url: "./assets/img/snotes.svg",
 		category: ["All", "Notes", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
