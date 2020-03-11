@@ -1,12 +1,82 @@
 export const product_list = [
 	// List of all products
+
+	{
+		name: "RememBear",
+		description: "The easiest way to remember passwords.",
+		url: "https://www.remembear.com/",
+		img_url: "./assets/img/remembear.svg",
+		category: ["All", "Storage", "Security", "Utilities"],
+		tags: ["all", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "Krypton",
+		description: "Instantly sign in with easy & secure 2FA ",
+		url: "https://krypt.co/",
+		img_url: "./assets/img/krypton.svg",
+		category: ["All", "Security", "Utilities"],
+		tags: ["all", "free", "open-source", "cross-platform"]
+	},
+	{
+		name: "Seafile",
+		description: "Open source enterprise file sync and share platform.",
+		url: "https://www.seafile.com/en/home/",
+		img_url: "./assets/img/seafile.png",
+		category: [
+			"All",
+			"Storage",
+			"Productivity",
+			"File Transfer",
+			"Collaboration"
+		],
+		tags: ["all", "freemium", "open-source", "cross-platform"]
+	},
+	{
+		name: "Myki",
+		description: "Offline Password Manager & 2FA Authenticator.",
+		url: "https://www.myki.com/",
+		img_url: "./assets/img/myki.png",
+		category: ["All", "Storage", "Security", "Utilities"],
+		tags: [
+			"all",
+			"free",
+			"premium",
+			"web-app",
+			"proprietary",
+			"cross-platform"
+		]
+	},
+	{
+		name: "Tresorit Send",
+		description: "Send Big Files up to 5GB Securely.",
+		url: "https://send.tresorit.com/",
+		img_url: "./assets/img/tresorit-send.png",
+		category: ["All", "Utilities", "File Transfer"],
+		tags: ["all", "free", "web-app", "proprietary"]
+	},
+	{
+		name: "PasswordBoss",
+		description: "Secure Password Manager for Businesses and Individuals.",
+		url: "https://www.passwordboss.com/",
+		img_url: "./assets/img/passwordboss.png",
+		category: ["All", "Storage", "Security", "Utilities"],
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+	},
+	{
+		name: "Keyn",
+		description: "Login to your accounts without Passwords.",
+		url: "https://keyn.app/",
+		img_url: "./assets/img/keyn.svg",
+		category: ["All", "Security", "Utilities"],
+		tags: ["all", "freemium", "proprietary", "cross-platform"]
+	},
 	{
 		name: "Mailvelope",
 		description:
 			"An extension that provides encryption for your existing emails.",
 		url: "https://www.mailvelope.com/en",
 		img_url: "./assets/img/mailvelope.png",
-		category: ["All", "Email", "Communication"],
+		category: ["All", "Email", "Security", "Communication"],
 		tags: ["all", "free", "open-source", "cross-platform"]
 	},
 	{
@@ -84,7 +154,7 @@ export const product_list = [
 		description: "End-to-end encryption for email with PGP.",
 		url: "https://www.flowcrypt.com",
 		img_url: "./assets/img/flowcrypt.png",
-		category: ["All", "Email", "Communication"],
+		category: ["All", "Email", "Security", "Communication"],
 		tags: ["all", "freemium", "open-source", "cross-platform"]
 	},
 	{
@@ -350,7 +420,7 @@ export const product_list = [
 		description: "Cloud and Self-hosted password manager for businesses.",
 		url: "https://passwork.me/",
 		img_url: "./assets/img/passwork.png",
-		category: ["All", "Storage", "Utilities"],
+		category: ["All", "Storage", "Security", "Utilities"],
 		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
 	},
 	{
@@ -691,7 +761,7 @@ export const product_list = [
 		description: "End-to-end encryption for your cloud data.",
 		url: "https://www.boxcryptor.com/en/",
 		img_url: "./assets/img/boxcryptor.png",
-		category: ["All", "Utilities", "Storage"],
+		category: ["All", "Security", "Utilities", "Storage"],
 		tags: ["all", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -708,7 +778,14 @@ export const product_list = [
 			"Easily Protect Your Data Wherever It’s Created or Shared with End-to-End Encryption.",
 		url: "https://www.virtru.com/",
 		img_url: "./assets/img/virtru.png",
-		category: ["All", "Email", "Storage", "Communication", "File Transfer"],
+		category: [
+			"All",
+			"Email",
+			"Storage",
+			"Security",
+			"Communication",
+			"File Transfer"
+		],
 		tags: ["all", "premium", "cross-platform"]
 	},
 	{
@@ -717,7 +794,7 @@ export const product_list = [
 			"Open source password management solutions with end-to-end encryption.",
 		url: "https://www.bitwarden.com/",
 		img_url: "./assets/img/bitwarden.svg",
-		category: ["All", "Storage", "Utilities", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
 	},
 	{
@@ -726,7 +803,7 @@ export const product_list = [
 			"A modern, open-source and encrypted password manager for individuals and teams.",
 		url: "https://padloc.app/",
 		img_url: "./assets/img/padloc.png",
-		category: ["All", "Storage", "Utilities", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: [
 			"all",
 			"beta",
@@ -742,7 +819,7 @@ export const product_list = [
 			"Password manager and digital vault to manage your credentials.",
 		url: "https://www.lastpass.com/",
 		img_url: "./assets/img/lastpass.svg",
-		category: ["All", "Storage", "Utilities", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -750,7 +827,7 @@ export const product_list = [
 		description: "Password management tool for individuals and businesses.",
 		url: "https://www.roboform.com/",
 		img_url: "./assets/img/roboform.png",
-		category: ["All", "Storage", "Utilities", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
 	},
 	{
@@ -758,7 +835,7 @@ export const product_list = [
 		description: "A private by design end-to-end encrypted password manager.",
 		url: "https://www.1password.com/",
 		img_url: "./assets/img/1password.png",
-		category: ["All", "Storage", "Utilities", "Productivity"],
+		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
 	},
 	{
@@ -827,6 +904,7 @@ export const catergory_list = [
 	"Notes",
 	"Storage",
 	"Finance",
+	"Security",
 	"Utilities",
 	"Productivity",
 	"Communication",

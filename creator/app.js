@@ -30,6 +30,7 @@ const catergory_list = [
 	"Notes",
 	"Storage",
 	"Finance",
+	"Security",
 	"Utilities",
 	"Productivity",
 	"Communication",
