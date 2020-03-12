@@ -2,6 +2,48 @@ export const product_list = [
 	// List of all products
 
 	{
+		name: "ChatCrypt",
+		description: "Secure Web-based Group Chat.",
+		url: "https://www.chatcrypt.com/",
+		img_url: "./assets/img/chatcrypt.png",
+		category: ["All", "Communication"],
+		tags: ["all", "free", "web-app", "proprietary"]
+	},
+	{
+		name: "Pulse",
+		description: "Access to all your SMS messages, from any device.",
+		url: "https://messenger.klinkerapps.com/overview/",
+		img_url: "./assets/img/pulse.png",
+		category: ["All", "Communication"],
+		tags: ["all", "premium", "web-app", "open-source", "cross-platform"]
+	},
+	{
+		name: "Conversations",
+		description: "An open source XMPP/Jabber client for the Android platform",
+		url: "https://conversations.im/",
+		img_url: "./assets/img/conversations.png",
+		category: ["All", "Communication"],
+		tags: ["all", "premium", "open-source"]
+	},
+	{
+		name: "CounterMail",
+		description:
+			"A secure and easy to use online email service, designed for maximum security and privacy.",
+		url: "https://countermail.com/",
+		img_url: "./assets/img/countermail.png",
+		category: ["All", "Email", "Communication"],
+		tags: ["all", "premium", "web-app", "proprietary"]
+	},
+	{
+		name: "Stash",
+		description:
+			"A Blockchain-secured, privacy-focused personal finance manager",
+		url: "https://stash.to/",
+		img_url: "./assets/img/stash.svg",
+		category: ["All", "Finance", "Utilities"],
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+	},
+	{
 		name: "RememBear",
 		description: "The easiest way to remember passwords.",
 		url: "https://www.remembear.com/",
