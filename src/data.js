@@ -2,6 +2,21 @@ export const product_list = [
 	// List of all products
 
 	{
+		name: "Joplin",
+		description: "An Open Source Note Taking and To-do Application.",
+		url: "https://joplinapp.org/",
+		img_url: "./assets/img/joplin.png",
+		category: ["All", "Notes", "Productivity"],
+		tags: [
+			"all",
+			"free",
+			"opt-in",
+			"open-source",
+			"decentralized",
+			"cross-platform"
+		]
+	},
+	{
 		name: "ChatCrypt",
 		description: "Secure Web-based Group Chat.",
 		url: "https://www.chatcrypt.com/",
@@ -596,7 +611,14 @@ export const product_list = [
 		url: "https://www.messenger.com/",
 		img_url: "./assets/img/messenger.svg",
 		category: ["All", "Communication", "File Transfer"],
-		tags: ["all", "free", "web-app", "proprietary", "cross-platform"]
+		tags: [
+			"all",
+			"free",
+			"opt-in",
+			"web-app",
+			"proprietary",
+			"cross-platform"
+		]
 	},
 	{
 		name: "Stackfield",
@@ -656,7 +678,14 @@ export const product_list = [
 		url: "https://skype.com/en",
 		img_url: "./assets/img/skype.svg",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "web-app", "proprietary", "cross-platform"]
+		tags: [
+			"all",
+			"free",
+			"opt-in",
+			"web-app",
+			"proprietary",
+			"cross-platform"
+		]
 	},
 	{
 		name: "Google Duo",
@@ -673,7 +702,14 @@ export const product_list = [
 		url: "https://telegram.org/",
 		img_url: "./assets/img/telegram.svg",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "web-app", "proprietary", "cross-platform"]
+		tags: [
+			"all",
+			"free",
+			"opt-in",
+			"web-app",
+			"proprietary",
+			"cross-platform"
+		]
 	},
 	{
 		name: "WhatsApp",
@@ -931,6 +967,7 @@ export const tag_list = [
 	"all",
 	"beta",
 	"free",
+	"opt-in",
 	"web-app",
 	"premium",
 	"freemium",

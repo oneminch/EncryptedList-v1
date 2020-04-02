@@ -16,8 +16,9 @@ const commit_output = document.querySelector(".commit-msg");
 const tag_list = [
 	"beta",
 	"free",
-	"premium",
+	"opt-in",
 	"web-app",
+	"premium",
 	"freemium",
 	"proprietary",
 	"open-source",

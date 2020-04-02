@@ -170,6 +170,8 @@ h4 {
           border-radius: 10px;
           background: #000;
           color: #fff; }
+        .list__item .info .tags span.opt-in {
+          background: #e74c3c; }
 
 @media only screen and (max-width: 768px) {
   body {
