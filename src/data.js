@@ -2,6 +2,14 @@ export const product_list = [
 	// List of all products
 
 	{
+		name: "Jour for Therapists",
+		description: "Free and secure video chats for therapists.",
+		url: "https://therapy.jour.com/",
+		img_url: "./assets/img/jour.png",
+		category: ["All", "Health", "Communication"],
+		tags: ["all", "free", "web-app", "proprietary"]
+	},
+	{
 		name: "Joplin",
 		description: "An Open Source Note Taking and To-do Application.",
 		url: "https://joplinapp.org/",
@@ -981,12 +989,13 @@ export const catergory_list = [
 	"All",
 	"Email",
 	"Notes",
+	"Health",
 	"Storage",
 	"Finance",
 	"Security",
 	"Utilities",
 	"Productivity",
-	"Communication",
 	"File Transfer",
-	"Collaboration"
+	"Collaboration",
+	"Communication"
 ];

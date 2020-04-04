@@ -29,14 +29,15 @@ const tag_list = [
 const catergory_list = [
 	"Email",
 	"Notes",
+	"Health",
 	"Storage",
 	"Finance",
 	"Security",
 	"Utilities",
 	"Productivity",
-	"Communication",
 	"File Transfer",
-	"Collaboration"
+	"Collaboration",
+	"Communication"
 ];
 
 let items_list = []; // items to be added list
