@@ -7,7 +7,7 @@ export const product_list = [
 		url: "https://therapy.jour.com/",
 		img_url: "./assets/img/jour.png",
 		category: ["All", "Health", "Communication"],
-		tags: ["all", "free", "web-app", "proprietary"]
+		tags: ["all", "free", "web-app", "proprietary"],
 	},
 	{
 		name: "Joplin",
@@ -21,8 +21,8 @@ export const product_list = [
 			"opt-in",
 			"open-source",
 			"decentralized",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "ChatCrypt",
@@ -30,7 +30,7 @@ export const product_list = [
 		url: "https://www.chatcrypt.com/",
 		img_url: "./assets/img/chatcrypt.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "web-app", "proprietary"]
+		tags: ["all", "free", "web-app", "proprietary"],
 	},
 	{
 		name: "Pulse",
@@ -38,7 +38,7 @@ export const product_list = [
 		url: "https://messenger.klinkerapps.com/overview/",
 		img_url: "./assets/img/pulse.png",
 		category: ["All", "Communication"],
-		tags: ["all", "premium", "web-app", "open-source", "cross-platform"]
+		tags: ["all", "premium", "web-app", "open-source", "cross-platform"],
 	},
 	{
 		name: "Conversations",
@@ -46,7 +46,7 @@ export const product_list = [
 		url: "https://conversations.im/",
 		img_url: "./assets/img/conversations.png",
 		category: ["All", "Communication"],
-		tags: ["all", "premium", "open-source"]
+		tags: ["all", "premium", "open-source"],
 	},
 	{
 		name: "CounterMail",
@@ -55,7 +55,7 @@ export const product_list = [
 		url: "https://countermail.com/",
 		img_url: "./assets/img/countermail.png",
 		category: ["All", "Email", "Communication"],
-		tags: ["all", "premium", "web-app", "proprietary"]
+		tags: ["all", "premium", "web-app", "proprietary"],
 	},
 	{
 		name: "Stash",
@@ -64,7 +64,7 @@ export const product_list = [
 		url: "https://stash.to/",
 		img_url: "./assets/img/stash.svg",
 		category: ["All", "Finance", "Utilities"],
-		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"],
 	},
 	{
 		name: "RememBear",
@@ -72,7 +72,7 @@ export const product_list = [
 		url: "https://www.remembear.com/",
 		img_url: "./assets/img/remembear.svg",
 		category: ["All", "Storage", "Security", "Utilities"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Krypton",
@@ -80,7 +80,7 @@ export const product_list = [
 		url: "https://krypt.co/",
 		img_url: "./assets/img/krypton.svg",
 		category: ["All", "Security", "Utilities"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Seafile",
@@ -92,9 +92,9 @@ export const product_list = [
 			"Storage",
 			"Productivity",
 			"File Transfer",
-			"Collaboration"
+			"Collaboration",
 		],
-		tags: ["all", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Myki",
@@ -108,8 +108,8 @@ export const product_list = [
 			"premium",
 			"web-app",
 			"proprietary",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Tresorit Send",
@@ -117,7 +117,7 @@ export const product_list = [
 		url: "https://send.tresorit.com/",
 		img_url: "./assets/img/tresorit-send.png",
 		category: ["All", "Utilities", "File Transfer"],
-		tags: ["all", "free", "web-app", "proprietary"]
+		tags: ["all", "free", "web-app", "proprietary"],
 	},
 	{
 		name: "PasswordBoss",
@@ -125,7 +125,7 @@ export const product_list = [
 		url: "https://www.passwordboss.com/",
 		img_url: "./assets/img/passwordboss.png",
 		category: ["All", "Storage", "Security", "Utilities"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Keyn",
@@ -133,7 +133,7 @@ export const product_list = [
 		url: "https://keyn.app/",
 		img_url: "./assets/img/keyn.svg",
 		category: ["All", "Security", "Utilities"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Mailvelope",
@@ -142,7 +142,7 @@ export const product_list = [
 		url: "https://www.mailvelope.com/en",
 		img_url: "./assets/img/mailvelope.png",
 		category: ["All", "Email", "Security", "Communication"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Day One",
@@ -150,7 +150,7 @@ export const product_list = [
 		url: "https://dayoneapp.com/",
 		img_url: "./assets/img/dayone.png",
 		category: ["All", "Notes", "Utilities"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Librem One",
@@ -164,15 +164,15 @@ export const product_list = [
 			"Storage",
 			"Productivity",
 			"Communication",
-			"File Transfer"
+			"File Transfer",
 		],
 		tags: [
 			"all",
 			"freemium",
 			"open-source",
 			"decentralized",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Status",
@@ -185,9 +185,9 @@ export const product_list = [
 			"Finance",
 			"Utilities",
 			"Communication",
-			"File Transfer"
+			"File Transfer",
 		],
-		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"],
 	},
 	{
 		name: "Criptext",
@@ -202,8 +202,8 @@ export const product_list = [
 			"free",
 			"open-source",
 			"decentralized",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Voxer",
@@ -212,7 +212,7 @@ export const product_list = [
 		url: "https://www.voxer.com",
 		img_url: "./assets/img/voxer.png",
 		category: ["All", "Communication"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "FlowCrypt",
@@ -220,7 +220,7 @@ export const product_list = [
 		url: "https://www.flowcrypt.com",
 		img_url: "./assets/img/flowcrypt.png",
 		category: ["All", "Email", "Security", "Communication"],
-		tags: ["all", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "ChatSecure",
@@ -229,7 +229,7 @@ export const product_list = [
 		url: "https://chatsecure.org/",
 		img_url: "./assets/img/chatsecure.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "open-source"]
+		tags: ["all", "free", "open-source"],
 	},
 	{
 		name: "Symphony",
@@ -238,7 +238,7 @@ export const product_list = [
 		url: "https://symphony.com/",
 		img_url: "./assets/img/symphony.png",
 		category: ["All", "Communication", "File Transfer", "Collaboration"],
-		tags: ["all", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "ToffeeShare",
@@ -247,7 +247,7 @@ export const product_list = [
 		url: "https://toffeeshare.com/",
 		img_url: "./assets/img/toffeeshare.png",
 		category: ["All", "File Transfer"],
-		tags: ["all", "web-app", "freemium", "proprietary"]
+		tags: ["all", "web-app", "freemium", "proprietary"],
 	},
 	{
 		name: "wölkli Mail",
@@ -255,7 +255,7 @@ export const product_list = [
 		url: "https://woelklimail.com/en",
 		img_url: "./assets/img/woelklimail.png",
 		category: ["All", "Email", "Communication"],
-		tags: ["all", "web-app", "freemium", "proprietary"]
+		tags: ["all", "web-app", "freemium", "proprietary"],
 	},
 	{
 		name: "Confrere",
@@ -263,7 +263,7 @@ export const product_list = [
 		url: "https://confrere.com/",
 		img_url: "./assets/img/confrere.png",
 		category: ["All", "Communication"],
-		tags: ["all", "premium", "web-app", "proprietary"]
+		tags: ["all", "premium", "web-app", "proprietary"],
 	},
 	{
 		name: "Webex Teams",
@@ -271,7 +271,7 @@ export const product_list = [
 		url: "https://www.webex.com/team-collaboration.html",
 		img_url: "./assets/img/webexteams.png",
 		category: ["All", "Communication", "File Transfer", "Collaboration"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "NextCloud",
@@ -286,9 +286,9 @@ export const product_list = [
 			"Productivity",
 			"Communication",
 			"File Transfer",
-			"Collaboration"
+			"Collaboration",
 		],
-		tags: ["all", "free", "premium", "open-source", "cross-platform"]
+		tags: ["all", "free", "premium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Cyph",
@@ -296,7 +296,7 @@ export const product_list = [
 		url: "https://cyph.com/",
 		img_url: "./assets/img/cyph.png",
 		category: ["All", "Notes", "Storage", "Communication"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Jetdrop",
@@ -304,16 +304,16 @@ export const product_list = [
 		url: "https://www.jetdrop.net/",
 		img_url: "./assets/img/jetdrop.png",
 		category: ["All", "File Transfer"],
-		tags: ["all", "free", "web-app", "proprietary"]
+		tags: ["all", "free", "web-app", "proprietary"],
 	},
 	{
 		name: "Zebu",
 		description:
 			"Messaging, file management and scheduling all in one platform ",
 		url: "https://www.zebu.io",
-		img_url: "./assets/img/zebu.png",
+		img_url: "./assets/img/zebu.svg",
 		category: ["All", "Storage", "Productivity", "Communication"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Kontalk",
@@ -322,7 +322,7 @@ export const product_list = [
 		url: "https://www.kontalk.org/",
 		img_url: "./assets/img/kontalk.png",
 		category: ["All", "Communication", "File Transfer"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Silence",
@@ -331,7 +331,7 @@ export const product_list = [
 		url: "https://www.silence.im",
 		img_url: "./assets/img/silence.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "open-source"]
+		tags: ["all", "free", "open-source"],
 	},
 	{
 		name: "Rocket.Chat",
@@ -344,7 +344,7 @@ export const product_list = [
 			"Utilities",
 			"Productivity",
 			"Communication",
-			"Collaboration"
+			"Collaboration",
 		],
 		tags: [
 			"all",
@@ -352,8 +352,8 @@ export const product_list = [
 			"web-app",
 			"freemium",
 			"open-source",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "FortKnoxster",
@@ -365,7 +365,7 @@ export const product_list = [
 			"Storage",
 			"Communication",
 			"File Transfer",
-			"Collaboration"
+			"Collaboration",
 		],
 		tags: [
 			"all",
@@ -373,8 +373,8 @@ export const product_list = [
 			"web-app",
 			"proprietary",
 			"decentralized",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Jami",
@@ -383,7 +383,7 @@ export const product_list = [
 		url: "https://www.jami.net",
 		img_url: "./assets/img/jami.png",
 		category: ["All", "Communication", "Collaboration"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Seecrypt",
@@ -392,7 +392,7 @@ export const product_list = [
 		url: "https://www.seecrypt.com/",
 		img_url: "./assets/img/seecrypt.png",
 		category: ["All", "Communication", "File Transfer"],
-		tags: ["all", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "PreVeil",
@@ -401,7 +401,7 @@ export const product_list = [
 		url: "https://www.preveil.com",
 		img_url: "./assets/img/preveil.png",
 		category: ["All", "Email", "Storage", "Communication", "File Transfer"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Sync",
@@ -410,7 +410,7 @@ export const product_list = [
 		url: "https://www.sync.com",
 		img_url: "./assets/img/sync.png",
 		category: ["All", "Storage", "File Transfer"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Tok",
@@ -418,7 +418,7 @@ export const product_list = [
 		url: "https://www.tok.life",
 		img_url: "./assets/img/tok.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"],
 	},
 	{
 		name: "Session",
@@ -427,7 +427,7 @@ export const product_list = [
 		url: "https://getsession.org/",
 		img_url: "./assets/img/session.png",
 		category: ["All", "Communication", "File Transfer"],
-		tags: ["all", "free", "open-source", "decentralized", "cross-platform"]
+		tags: ["all", "free", "open-source", "decentralized", "cross-platform"],
 	},
 	{
 		name: "Inkdrop",
@@ -436,7 +436,7 @@ export const product_list = [
 		url: "https://inkdrop.app/",
 		img_url: "./assets/img/inkdrop.png",
 		category: ["All", "Notes", "Productivity"],
-		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"],
 	},
 	{
 		name: "ownCloud",
@@ -449,9 +449,9 @@ export const product_list = [
 			"Storage",
 			"Productivity",
 			"File Transfer",
-			"Collaboration"
+			"Collaboration",
 		],
-		tags: ["all", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Pushbullet",
@@ -460,7 +460,7 @@ export const product_list = [
 		url: "https://www.pushbullet.com/",
 		img_url: "./assets/img/pushbullet.png",
 		category: ["All", "Utilities", "Productivity", "File Transfer"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "FocusWriter",
@@ -469,7 +469,7 @@ export const product_list = [
 		url: "https://focuswriter.co/",
 		img_url: "./assets/img/focuswriter.png",
 		category: ["All", "Notes", "Productivity"],
-		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"],
 	},
 	{
 		name: "Okuna",
@@ -478,7 +478,7 @@ export const product_list = [
 		url: "https://www.okuna.io/",
 		img_url: "./assets/img/okuna.png",
 		category: ["All", "Utilities", "Communication"],
-		tags: ["all", "beta", "free", "web-app", "open-source"]
+		tags: ["all", "beta", "free", "web-app", "open-source"],
 	},
 	{
 		name: "Passwork",
@@ -486,7 +486,7 @@ export const product_list = [
 		url: "https://passwork.me/",
 		img_url: "./assets/img/passwork.png",
 		category: ["All", "Storage", "Security", "Utilities"],
-		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Firefox Send",
@@ -495,7 +495,7 @@ export const product_list = [
 		url: "https://send.firefox.com",
 		img_url: "./assets/img/firefoxsend.svg",
 		category: ["All", "File Transfer"],
-		tags: ["all", "free", "web-app", "open-source"]
+		tags: ["all", "free", "web-app", "open-source"],
 	},
 	{
 		name: "Datash",
@@ -503,7 +503,7 @@ export const product_list = [
 		url: "https://datash.co/",
 		img_url: "./assets/img/datash.png",
 		category: ["All", "File Transfer"],
-		tags: ["all", "free", "web-app", "open-source"]
+		tags: ["all", "free", "web-app", "open-source"],
 	},
 	{
 		name: "EteSync",
@@ -512,7 +512,7 @@ export const product_list = [
 		url: "https://www.etesync.com/",
 		img_url: "./assets/img/etesync.png",
 		category: ["All", "Productivity"],
-		tags: ["all", "web-app", "premium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "premium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Scannie",
@@ -521,7 +521,7 @@ export const product_list = [
 		url: "https://www.scannieapp.com/",
 		img_url: "./assets/img/scannie.png",
 		category: ["All", "Productivity"],
-		tags: ["all", "free", "open-source", "decentralized"]
+		tags: ["all", "free", "open-source", "decentralized"],
 	},
 	{
 		name: "Wickr",
@@ -530,7 +530,7 @@ export const product_list = [
 		url: "https://wickr.com/",
 		img_url: "./assets/img/wickr.png",
 		category: ["All", "Communication", "Collaboration"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Wire",
@@ -543,9 +543,9 @@ export const product_list = [
 			"Productivity",
 			"Communication",
 			"File Transfer",
-			"Collaboration"
+			"Collaboration",
 		],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Tox",
@@ -554,7 +554,7 @@ export const product_list = [
 		url: "https://tox.chat/",
 		img_url: "./assets/img/tox.svg",
 		category: ["All", "Communication", "File Transfer", "Collaboration"],
-		tags: ["all", "beta", "free", "open-source", "cross-platform"]
+		tags: ["all", "beta", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Riot",
@@ -569,8 +569,8 @@ export const product_list = [
 			"web-app",
 			"open-source",
 			"decentralized",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Mumble",
@@ -579,7 +579,7 @@ export const product_list = [
 		url: "https://trymumble.com",
 		img_url: "./assets/img/mumble.svg",
 		category: ["All", "Communication", "Collaboration"],
-		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"],
 	},
 	{
 		name: "MsgSafe.io",
@@ -592,7 +592,7 @@ export const product_list = [
 			"Email",
 			"Productivity",
 			"Communication",
-			"File Transfer"
+			"File Transfer",
 		],
 		tags: [
 			"all",
@@ -600,8 +600,8 @@ export const product_list = [
 			"web-app",
 			"freemium",
 			"proprietary",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Viber",
@@ -610,7 +610,7 @@ export const product_list = [
 		url: "https://www.viber.com/",
 		img_url: "./assets/img/viber.svg",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "proprietary", "cross-platform"]
+		tags: ["all", "free", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Facebook Messenger",
@@ -625,8 +625,8 @@ export const product_list = [
 			"opt-in",
 			"web-app",
 			"proprietary",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Stackfield",
@@ -634,7 +634,7 @@ export const product_list = [
 		url: "https://www.stackfield.com/",
 		img_url: "./assets/img/stackfield.png",
 		category: ["All", "Productivity", "Communication", "Collaboration"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "dPhone",
@@ -643,7 +643,7 @@ export const product_list = [
 		url: "https://dphone.app/",
 		img_url: "./assets/img/dphone.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "open-source", "decentralized"]
+		tags: ["all", "free", "open-source", "decentralized"],
 	},
 	{
 		name: "Signal",
@@ -651,7 +651,7 @@ export const product_list = [
 		url: "https://signal.org/",
 		img_url: "./assets/img/signal.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Keybase Chat",
@@ -659,7 +659,7 @@ export const product_list = [
 		url: "https://keybase.io/download",
 		img_url: "./assets/img/keybase.png",
 		category: ["All", "Storage", "Communication", "File Transfer"],
-		tags: ["all", "free", "open-source", "cross-platform"]
+		tags: ["all", "free", "open-source", "cross-platform"],
 	},
 	{
 		name: "Safer.Chat",
@@ -668,7 +668,7 @@ export const product_list = [
 		url: "https://safer.chat/",
 		img_url: "./assets/img/saferchat.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "web-app", "open-source"]
+		tags: ["all", "free", "web-app", "open-source"],
 	},
 	{
 		name: "Confide",
@@ -677,7 +677,7 @@ export const product_list = [
 		url: "https://getconfide.com/",
 		img_url: "./assets/img/confide.png",
 		category: ["All", "Communication"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Skype",
@@ -692,8 +692,8 @@ export const product_list = [
 			"opt-in",
 			"web-app",
 			"proprietary",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "Google Duo",
@@ -701,14 +701,14 @@ export const product_list = [
 		url: "https://duo.google.com/about/",
 		img_url: "./assets/img/duo.png",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "web-app", "proprietary", "cross-platform"]
+		tags: ["all", "free", "web-app", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Telegram",
 		description:
 			"A cloud-based messaging app which offers e2ee when using Secret Chats",
 		url: "https://telegram.org/",
-		img_url: "./assets/img/telegram.svg",
+		img_url: "./assets/img/telegram.png",
 		category: ["All", "Communication"],
 		tags: [
 			"all",
@@ -716,8 +716,8 @@ export const product_list = [
 			"opt-in",
 			"web-app",
 			"proprietary",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "WhatsApp",
@@ -726,16 +726,16 @@ export const product_list = [
 		url: "https://www.whatsapp.com/",
 		img_url: "./assets/img/whatsapp.svg",
 		category: ["All", "Communication"],
-		tags: ["all", "free", "proprietary", "cross-platform"]
+		tags: ["all", "free", "proprietary", "cross-platform"],
 	},
 	{
 		name: "KeeperChat",
 		description:
 			"Communicate privately with end-to-end encryption for messages at rest and in transit.",
 		url: "https://keepersecurity.com/keeperchat.html",
-		img_url: "./assets/img/keeperchat.svg",
+		img_url: "./assets/img/keeperchat.png",
 		category: ["All", "Communication"],
-		tags: ["all", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Threema",
@@ -744,7 +744,7 @@ export const product_list = [
 		url: "https://threema.ch/en",
 		img_url: "./assets/img/threema.svg",
 		category: ["All", "Communication"],
-		tags: ["all", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Tutanota Mail",
@@ -753,7 +753,7 @@ export const product_list = [
 		url: "https://tutanota.com/secure-email",
 		img_url: "./assets/img/tutanota.svg",
 		category: ["All", "Email", "Communication"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Protonmail",
@@ -761,7 +761,7 @@ export const product_list = [
 		url: "https://protonmail.com/",
 		img_url: "./assets/img/protonmail.svg",
 		category: ["All", "Email", "Communication"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Mailfence",
@@ -770,7 +770,7 @@ export const product_list = [
 		url: "https://mailfence.com/",
 		img_url: "./assets/img/mailfence.png",
 		category: ["All", "Email", "Communication"],
-		tags: ["all", "web-app", "freemium", "proprietary"]
+		tags: ["all", "web-app", "freemium", "proprietary"],
 	},
 	{
 		name: "Canary Mail",
@@ -779,7 +779,7 @@ export const product_list = [
 		url: "https://canarymail.io/",
 		img_url: "./assets/img/canarymail.png",
 		category: ["All", "Email"],
-		tags: ["all", "premium", "proprietary"]
+		tags: ["all", "premium", "proprietary"],
 	},
 	{
 		name: "Mega",
@@ -788,7 +788,7 @@ export const product_list = [
 		url: "https://mega.nz/",
 		img_url: "./assets/img/mega.svg",
 		category: ["All", "Storage", "Communication", "File Transfer"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Tresorit",
@@ -797,7 +797,7 @@ export const product_list = [
 		url: "https://tresorit.com/",
 		img_url: "./assets/img/tresorit.svg",
 		category: ["All", "Storage", "Productivity"],
-		tags: ["all", "web-app", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "pDrive",
@@ -806,7 +806,7 @@ export const product_list = [
 		url: "https://pdrive.co/",
 		img_url: "./assets/img/pdrive.png",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"],
 	},
 	{
 		name: "Encrypt My Photos",
@@ -814,7 +814,7 @@ export const product_list = [
 		url: "https://encryptmyphotos.com/",
 		img_url: "./assets/img/encryptmyphotos.png",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "open-source", "decentralized"]
+		tags: ["all", "free", "web-app", "open-source", "decentralized"],
 	},
 	{
 		name: "Photo Vault",
@@ -823,7 +823,7 @@ export const product_list = [
 		url: "https://photovault.online/",
 		img_url: "./assets/img/photovault.png",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "proprietary", "decentralized"]
+		tags: ["all", "free", "web-app", "proprietary", "decentralized"],
 	},
 	{
 		name: "Recall Photos",
@@ -832,7 +832,7 @@ export const product_list = [
 		url: "https://app.recall.photos/",
 		img_url: "./assets/img/recallphotos.svg",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "open-source", "decentralized"]
+		tags: ["all", "free", "web-app", "open-source", "decentralized"],
 	},
 	{
 		name: "Pixus",
@@ -840,7 +840,7 @@ export const product_list = [
 		url: "https://pixus.tech/",
 		img_url: "./assets/img/pixus.png",
 		category: ["All", "Storage"],
-		tags: ["all", "free", "web-app", "open-source", "decentralized"]
+		tags: ["all", "free", "web-app", "open-source", "decentralized"],
 	},
 	{
 		name: "Boxcryptor",
@@ -848,7 +848,7 @@ export const product_list = [
 		url: "https://www.boxcryptor.com/en/",
 		img_url: "./assets/img/boxcryptor.png",
 		category: ["All", "Security", "Utilities", "Storage"],
-		tags: ["all", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "NordLocker",
@@ -856,7 +856,7 @@ export const product_list = [
 		url: "https://nordlocker.com/",
 		img_url: "./assets/img/nordlocker.png",
 		category: ["All", "Storage", "Productivity", "File Transfer"],
-		tags: ["all", "premium", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Virtru",
@@ -870,18 +870,18 @@ export const product_list = [
 			"Storage",
 			"Security",
 			"Communication",
-			"File Transfer"
+			"File Transfer",
 		],
-		tags: ["all", "premium", "cross-platform"]
+		tags: ["all", "premium", "cross-platform"],
 	},
 	{
 		name: "Bitwarden",
 		description:
 			"Open source password management solutions with end-to-end encryption.",
 		url: "https://www.bitwarden.com/",
-		img_url: "./assets/img/bitwarden.svg",
+		img_url: "./assets/img/bitwarden.png",
 		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Padloc",
@@ -896,8 +896,8 @@ export const product_list = [
 			"web-app",
 			"freemium",
 			"open-source",
-			"cross-platform"
-		]
+			"cross-platform",
+		],
 	},
 	{
 		name: "LastPass",
@@ -906,7 +906,7 @@ export const product_list = [
 		url: "https://www.lastpass.com/",
 		img_url: "./assets/img/lastpass.svg",
 		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Roboform",
@@ -914,7 +914,7 @@ export const product_list = [
 		url: "https://www.roboform.com/",
 		img_url: "./assets/img/roboform.png",
 		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
-		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "proprietary", "cross-platform"],
 	},
 	{
 		name: "1Password",
@@ -922,7 +922,7 @@ export const product_list = [
 		url: "https://www.1password.com/",
 		img_url: "./assets/img/1password.png",
 		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
-		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"]
+		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"],
 	},
 	{
 		name: "Tutanota Calendar",
@@ -931,7 +931,7 @@ export const product_list = [
 		url: "https://tutanota.com/calendar/",
 		img_url: "./assets/img/tutanota.svg",
 		category: ["All", "Email", "Utilities", "Productivity"],
-		tags: ["all", "free", "web-app", "open-source", "cross-platform"]
+		tags: ["all", "free", "web-app", "open-source", "cross-platform"],
 	},
 	{
 		name: "Secure Calendar",
@@ -940,7 +940,7 @@ export const product_list = [
 		url: "https://securecalendar.online/",
 		img_url: "./assets/img/securecalendar.png",
 		category: ["All", "Utilities", "Productivity"],
-		tags: ["all", "free", "web-app", "open-source", "decentralized"]
+		tags: ["all", "free", "web-app", "open-source", "decentralized"],
 	},
 	{
 		name: "Standard Notes",
@@ -948,7 +948,7 @@ export const product_list = [
 		url: "https://standardnotes.org",
 		img_url: "./assets/img/snotes.svg",
 		category: ["All", "Notes", "Productivity"],
-		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"]
+		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
 		name: "Notes by Firefox",
@@ -957,7 +957,7 @@ export const product_list = [
 		url: "https://addons.mozilla.org/en-US/firefox/addon/notes-by-firefox/",
 		img_url: "./assets/img/firefoxnotes.png",
 		category: ["All", "Notes", "Productivity"],
-		tags: ["all", "beta", "free", "open-source"]
+		tags: ["all", "beta", "free", "open-source"],
 	},
 	{
 		name: "Recap",
@@ -966,8 +966,8 @@ export const product_list = [
 		url: "https://recap.io/",
 		img_url: "./assets/img/recap.png",
 		category: ["All", "Finance", "Productivity"],
-		tags: ["all", "web-app", "freemium", "proprietary"]
-	}
+		tags: ["all", "web-app", "freemium", "proprietary"],
+	},
 ];
 
 // List of available tags
@@ -982,7 +982,7 @@ export const tag_list = [
 	"proprietary",
 	"open-source",
 	"decentralized",
-	"cross-platform" //, "", "", "", "", ""
+	"cross-platform", //, "", "", "", "", ""
 ];
 // List of available categories
 export const catergory_list = [
@@ -997,5 +997,5 @@ export const catergory_list = [
 	"Productivity",
 	"File Transfer",
 	"Collaboration",
-	"Communication"
+	"Communication",
 ];
