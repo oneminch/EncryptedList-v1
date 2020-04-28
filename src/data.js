@@ -537,7 +537,7 @@ export const product_list = [
 		description:
 			"A collaboration platform with the most advanced security and superior user experience.",
 		url: "https://wire.com/en/",
-		img_url: "./assets/img/wire.svg",
+		img_url: "./assets/img/wire.png",
 		category: [
 			"All",
 			"Productivity",
