@@ -97,7 +97,7 @@ export const product_list = [
 		tags: ["all", "freemium", "open-source", "cross-platform"],
 	},
 	{
-		name: "Myki",
+		name: "MYKI",
 		description: "Offline Password Manager & 2FA Authenticator.",
 		url: "https://www.myki.com/",
 		img_url: "./assets/img/myki.png",
@@ -749,15 +749,16 @@ export const product_list = [
 	{
 		name: "Tutanota Mail",
 		description:
-			"A secure email service with built-in encrypted calendar, easy to use and private by design.",
+			"A secure email service with built-in encrypted calendar & contacts, easy to use and private by design.",
 		url: "https://tutanota.com/secure-email",
 		img_url: "./assets/img/tutanota.svg",
-		category: ["All", "Email", "Communication"],
+		category: ["All", "Email", "Utilities", "Communication", "Productivity"],
 		tags: ["all", "web-app", "freemium", "open-source", "cross-platform"],
 	},
 	{
-		name: "Protonmail",
-		description: "An email service with e2e encryption and a modern design.",
+		name: "ProtonMail",
+		description:
+			"An encrypted email service with modern design, integrated encrypted calendar and contacts.",
 		url: "https://protonmail.com/",
 		img_url: "./assets/img/protonmail.svg",
 		category: ["All", "Email", "Communication"],
@@ -923,15 +924,6 @@ export const product_list = [
 		img_url: "./assets/img/1password.png",
 		category: ["All", "Storage", "Utilities", "Security", "Productivity"],
 		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"],
-	},
-	{
-		name: "Tutanota Calendar",
-		description:
-			"Free zero-knowledge calendar with built-in encryption by Tutanota.",
-		url: "https://tutanota.com/calendar/",
-		img_url: "./assets/img/tutanota.svg",
-		category: ["All", "Email", "Utilities", "Productivity"],
-		tags: ["all", "free", "web-app", "open-source", "cross-platform"],
 	},
 	{
 		name: "Secure Calendar",
