@@ -3,7 +3,7 @@ $lightColor: #fff; // Light color: White
 $disclaimerColor: #e74c3c; // Light color: White
 $tinyShadow: -4px 4px 0px $darkColor; // Box shadow for small containers
 $bigShadow: -5px 5px 0px $darkColor; // Box shadow for bigger containers
-$hoverShadow: -7.5px 7.5px 0px #f1c40f; // Box shadow for bigger containers
+$hoverShadow: -7.5px 0px 0px #f1c40f; // Box shadow for bigger containers
 $activeBorder: 2px solid $darkColor; // Border
 $roundCorners: 3px;
 
@@ -197,14 +197,16 @@ h4 {
       height: auto;
       font-size: 1.25rem;
       padding: 10px;
-      margin: 1.5rem 0;
+      margin: 0;
       text-align: left;
       display: block;
       border: $activeBorder;
-      box-shadow: $bigShadow;
+      border-bottom: 0;
+      // box-shadow: $bigShadow;
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      border-radius: 0;
 
       >* {
          height: 100%;
@@ -213,6 +215,15 @@ h4 {
       &:hover {
          // border: $hoverBorder;
          box-shadow: $hoverShadow;
+      }
+
+      &:first-of-type {
+         border-radius: 10px 10px 0 0 !important;
+      }
+
+      &:nth-last-of-type(2) {
+         border-radius: 0 0 10px 10px !important;
+         border: $activeBorder;
       }
 
       .icon {

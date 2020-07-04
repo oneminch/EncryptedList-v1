@@ -125,18 +125,24 @@ h4 {
     height: auto;
     font-size: 1.25rem;
     padding: 10px;
-    margin: 1.5rem 0;
+    margin: 0;
     text-align: left;
     display: block;
     border: 2px solid #000;
-    box-shadow: -5px 5px 0px #000;
+    border-bottom: 0;
     display: flex;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    border-radius: 0; }
     .list__item > * {
       height: 100%; }
     .list__item:hover {
-      box-shadow: -7.5px 7.5px 0px #f1c40f; }
+      box-shadow: -7.5px 0px 0px #f1c40f; }
+    .list__item:first-of-type {
+      border-radius: 10px 10px 0 0 !important; }
+    .list__item:nth-last-of-type(2) {
+      border-radius: 0 0 10px 10px !important;
+      border: 2px solid #000; }
     .list__item .icon {
       width: 125px;
       padding: 1rem;
