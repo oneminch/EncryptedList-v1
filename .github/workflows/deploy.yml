@@ -8,6 +8,15 @@ jobs:
    build:
       runs-on: ubuntu-latest
       steps:
-         - uses: actions/checkout@v2
+         - name: Checkout
+           uses: actions/checkout@v2
+
+         - name: Build Project
+           run: npm run build
+
+         - name: Deploy to GitHub
          - uses: JamesIves/github-pages-deploy-action@releases/v3
-         - run: npm run build
+           with:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              BRANCH: master
+              FOLDER: .
