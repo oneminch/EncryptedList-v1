@@ -1,0 +1,15 @@
+name: Github Actions Example
+
+on: [push]
+
+jobs:
+   build:
+      name: Building Project
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: Checkout
+           uses: actions/checkout@v1
+
+         - name: Build
+           run: npm run build
