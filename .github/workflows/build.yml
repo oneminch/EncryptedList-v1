@@ -6,6 +6,9 @@ jobs:
    build:
       name: Building Project
       runs-on: ubuntu-latest
+      strategy: 
+        matrix:
+          node-version: [12.x]
 
       steps:
         - name: Checkout
@@ -16,5 +19,8 @@ jobs:
           with:
             node-version: ${{ matrix.node-version }}
         
-        - name: Build
+        - name: Install Packages
+           run: npm install
+
+        - name: Build Project
            run: npm run build
