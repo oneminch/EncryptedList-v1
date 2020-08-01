@@ -47,7 +47,7 @@ const renderItems = (items_arr) => {
 	let markup = ``;
 	for (let i = 0; i < items_arr.length; i++) {
 		markup += `
-         <a target="_blank" href="${items_arr[i].url}" class="list__item">
+         <a target="_blank" rel="noopener" href="${items_arr[i].url}" class="list__item">
             <div class="icon">
                <img src="${items_arr[i].img_url}" alt="${items_arr[i].name} logo">
             </div>
