@@ -28,17 +28,15 @@ Technology used: HTML, CSS(SCSS), Vanilla JavaScript (Bundled with Webpack/Babel
 
 ### Contribute
 
-This is the first project I had to use node modules ever so sorry about the mess.
+This is the first project I had to use npm ever so sorry about the mess.
 - Fork this repo and clone it to your device.
-- Install: 
-    - Modules - `npm install`
-    - Webpack - `npm install webpack webpack-cli --save-dev`
-    - Babel - `npm install babel-cli babel-core babel-loader babel-preset-env --save-dev`
+- Install modules with `npm install`
 - The file structure is as described above.
 - The main CSS file for this project (`style.css`) is compiled from the `style.scss` file located in the same directory. 
     - To code some CSS, please modify the .scss file,
     - To compile .scss file to .css, open Git Bash in assets/css/ and run `sass --watch style.scss:style.css` (Make sure to end the process once done; This command constantly watches each modification saved).
-- If JavaScript files in src/ are modified, run `npm run build` from the main directory to bundle them using Webpack and Babel.  
+- After making modifications, all you need to do is push and the GitHub actions file I set up will automatically build it.
+- Then submit a pull request.
 
 ### Submit a product
 First, please make sure that the product you want to submit is not in the [excluded products list](https://github.com/oneminch/encryptedlist/wiki/Excluded-Products).
