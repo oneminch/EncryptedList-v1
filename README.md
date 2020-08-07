@@ -1,4 +1,4 @@
-# Encrypted List
+# EncryptedList
 
 ### List of end-to-end ecnrypted services
 
