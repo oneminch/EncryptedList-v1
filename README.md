@@ -34,7 +34,7 @@ This is the first project I had to use npm ever so sorry about the mess.
 - The file structure is as described above.
 - The main CSS file for this project (`style.css`) is compiled from the `style.scss` file located in the same directory. 
     - To code some CSS, please modify the .scss file,
-    - To compile .scss file to .css, open Git Bash in assets/css/ and run `sass --watch style.scss:style.css` (Make sure to end the process once done; This command constantly watches each modification saved).
+    - To compile .scss file to .css, open Git Bash in your root directory and run `npx sass assets/css/style.scss assets/css/style.css`.
 - After making modifications, all you need to do is push and the GitHub actions file I set up will automatically build it.
 - Then submit a pull request.
 
