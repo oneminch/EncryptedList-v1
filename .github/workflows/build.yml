@@ -1,4 +1,4 @@
-name: Github Actions Example
+name: Build Project
 
 on: [push]
 
