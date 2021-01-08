@@ -114,6 +114,30 @@ h4 {
    }
 }
 
+.message {
+   height: auto;
+   padding: .5rem;
+   border-radius: 7.5px;
+   text-align: center;
+   color: #1c2024;
+}
+
+.message a {
+   text-decoration: underline;
+   background: transparent;
+   font-weight: bold;
+}
+
+// redirection
+.redirect-msg {
+   background-color: #f1c61b;
+}
+
+// disclaimer
+.warning-msg {
+   background-color: #fa5252;
+}
+
 // Options to filter services
 .options {
    width: 100%;

@@ -10,6 +10,11 @@ const tag_dropdown = document.querySelector(".tags__list");
 const category_dropdown = document.querySelector(".category__list");
 const dropdown_lists = document.querySelectorAll(".dropdown__list");
 
+// Redirect to new version of site
+setTimeout(() => {
+	window.location.assign("https://encryptedlist.xyz");
+}, 6000);
+
 // 404 Image URL for empty list
 const empty_list_img = "./assets/img/404.png";
 
