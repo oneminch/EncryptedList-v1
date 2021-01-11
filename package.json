@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/oneminch/encryptedlist#readme",
   "dependencies": {
-    "chokidar": "^3.4.3",
+    "chokidar": "^3.5.0",
     "micromatch": "^4.0.2"
   },
   "devDependencies": {
