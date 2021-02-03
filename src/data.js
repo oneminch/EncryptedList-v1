@@ -926,15 +926,6 @@ export const product_list = [
 		tags: ["all", "premium", "web-app", "proprietary", "cross-platform"],
 	},
 	{
-		name: "Secure Calendar",
-		description:
-			"Secure, end-to-end encrypted, and privacy respecting calendar.",
-		url: "https://securecalendar.online/",
-		img_url: "./assets/img/securecalendar.png",
-		category: ["All", "Utilities", "Productivity"],
-		tags: ["all", "free", "web-app", "open-source", "decentralized"],
-	},
-	{
 		name: "Standard Notes",
 		description: "A free, open-source, and completely encrypted notes app.",
 		url: "https://standardnotes.org",
